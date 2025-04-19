@@ -1,0 +1,188 @@
+\documentclass[a4paper, 5pt]{report}
+%\documentclass{standalone}
+
+\usepackage{tocloft}
+\usepackage{xltxtra} 
+
+%\XeTeXlinebreaklocale "th"
+%\XeTeXlinebreakskip = 0pt plus 1pt   %
+\usepackage[fontsize=11pt]{fontsize}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+%layout
+\setlength{\voffset}{0.125cm}
+%\setlength{\hoffset}{1.5pt}
+\oddsidemargin = 1cm
+%\marginparwidth = -3pt
+\headsep = 10pt
+\textwidth = 426pt
+\textheight = 720pt
+\topmargin = -23pt
+\usepackage[top=1in, pass]{geometry}
+%layout
+% \setmainfont{AngsanaUPC}
+\usepackage{calligra}
+\usepackage{iflang} 
+\usepackage{tikz}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{layout}
+\usepackage{floatrow}
+\usepackage{filecontents}
+\usepackage{amsmath}
+\usepackage[options]{stackengine}
+\usepackage{pgfplots}
+\usepackage[options]{cancel}
+\pgfplotsset{compat=1.18}
+\usepackage{subcaption}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{calc}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{spy}
+\usetikzlibrary{decorations,calligraphy}
+\tikzexternalize
+\usepackage{etoolbox}
+\usepackage{letltxmacro}
+\usepackage{adjustbox}
+\usepackage{xfrac}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{colortbl}
+\usepackage[options]{amssymb}
+\usepackage{calc}
+\usepackage[tbtags]{amsmath}
+\usepackage[options]{multicol}
+\usepackage[options]{mathtools}
+\usepackage{amsfonts}
+\usepackage[options]{multirow}
+\usepgfplotslibrary{statistics}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[options]{lipsum}
+
+\def\dotfill#1{\cleaders\hbox to #1{.}\hfill}
+\makeatletter
+\def\myrulefill{\leavevmode\leaders\hrule height .8ex width 1ex depth -0.6ex\hfill\kern\z@}
+\makeatother
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\scb}{\scalebox}
+\newcommand\xof[3][1ex]{\ensurestackMath{%
+  \setbox0=\hbox{$#2$}%
+  \setbox2=\hbox{$#3$}%
+  \kern\wd0\kern-\dimexpr#1\relax%
+  \stackinset{r}{#1}{b}{\dimexpr#1-1ex}{\mathrlap{#3}}{%
+    \stackinset{l}{#1}{t}{\dimexpr#1-1ex}{\mathllap{#2}}{\big/}%
+  }%
+  \kern-\dimexpr#1\relax\kern\wd2%
+}}
+
+\makeatletter
+% \overarrow@ and \arrowfill@ are defined in amsmath
+\newcommand*{\overrightharpoonup}{\mathpalette{\overarrow@\rightharpoonupfill@}}
+\newcommand*{\rightharpoonupfill@}{\arrowfill@\relbar\relbar\rightharpoonup}
+\makeatother
+
+\DeclareFontFamily{U}{matha}{\hyphenchar\font45}
+\DeclareFontShape{U}{matha}{m}{n}{
+      <5> <6> <7> <8> <9> <10> gen * matha
+      <10.95> matha10 <12> <14.4> <17.28> <20.74> <24.88> matha12
+      }{}
+\DeclareSymbolFont{matha}{U}{matha}{m}{n}
+\DeclareMathSymbol{\varrightharpoonup}{3}{matha}{"E1}
+
+\newcommand\Cancel[2][black]{\renewcturnommand\CancelColor{\color{#1}}\cancel{#2}}
+
+\newcommand{\wideunderline}[2][2em]{%
+  \underline{\makebox[\ifdim\width>#1\width\else#1\fi]{#2}}%
+}
+
+\newcommand*{\permcomb}[4][0mu]{{{}^{#3}\mkern#1#2_{#4}}}
+\newcommand*{\perm}[1][-3mu]{\permcomb[#1]{P}}
+\newcommand*{\comb}[1][-1mu]{\permcomb[#1]{C}}
+
+\newcommand\checkmark[1][]{%
+  \tikz[scale=0.4,#1]{\fill(0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}%
+}
+\newcommand\crossmark[1][]{%
+  \tikz[scale=0.4,#1]{
+    \fill(0,0)--(0.1,0) .. controls (0.5,0.4) .. (1,0.7)--(0.9,0.7) ..  controls (0.5,0.5) ..(0,0.1) --cycle;
+    \fill(1,0.1)--(0.9,0.1) .. controls (0.5,0.3) .. (0,0.7)--(0.1,0.7) .. controls (0.5,0.4) ..(1,0.2) --cycle;
+  }%
+}
+
+\usetikzlibrary{shapes.misc,shadows}
+
+\DeclareMathOperator{\asec}{arcsec}
+\DeclareMathOperator{\asin}{arcsin}
+\DeclareMathOperator{\acot}{arccot}
+\DeclareMathOperator{\atan}{arctan}
+\DeclareMathOperator{\acsc}{arccsc}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\csch}{csch}
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\renewcommand*\arraystretch{1.3}
+%roman num
+\newcommand{\RomanI}{I}
+\newcommand{\joinR}{\hspace{-.1em}}
+\newcommand{\RomanII}{\mbox{\RomanI\joinR\RomanI}}
+\newcommand{\RomanIII}{\mbox{\RomanI\joinR\RomanII}}
+\newcommand{\RomanIV}{\mbox{\RomanI\joinR\RomanV}}
+\newcommand{\RomanV}{V}
+\newcommand{\RomanVI}{\mbox{\RomanV\joinR\RomanI}}
+\newcommand{\RomanVII}{\mbox{\RomanV\joinR\RomanII}}
+\newcommand{\RomanVIII}{\mbox{\RomanV\joinR\RomanIII}}
+\newcommand{\RomanIX}{\mbox{\RomanI\joinR\RomanX}}
+\newcommand{\RomanX}{X}
+%roman num
+
+%for textcolor
+\newcommand{\tcr}{\textcolor{red}}
+\newcommand{\tcb}{\textcolor{blue}}
+\newcommand{\tcp}{\textcolor{Plum}}
+\newcommand{\tct}{\textcolor{teal}}
+\newcommand{\tcm}{\textcolor{magenta}}
+\newcommand{\tco}{\textcolor{orange}}
+\newcommand{\dil}{\displaystyle\int\limits}
+\newcommand{\il}{\int\limits}
+\newcommand{\iil}{\iint\limits}
+\newcommand{\lln}{\lim\limits_{n\to\infty}}
+\newcommand{\sn}{\sum\limits^\infty_{n=1}}
+\newcommand{\dsn}{\displaystyle\sum\limits^\infty_{n=1}}
+\newcommand{\dso}{\displaystyle\sum\limits^\infty_{n=0}}
+\newcommand{\dsl}{\displaystyle\sum\limits}
+\newcommand{\dsi}{\displaystyle\sum\limits^\infty}
+\newcommand{\eqdef}{\overset{\mathrm{def}}{=\joinrel=}}
+\newcommand{\stl}{\bigg|}
+%for textcolor
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+
+\pagenumbering{gobble}
+
+\makeatletter
+\def\equalsfill{$\m@th\mathord=\mkern-7mu
+\cleaders\hbox{$\!\mathord=\!$}\hfill
+\mkern-7mu\mathord=$}
+\makeatother
+\usepackage[autostyle=false, style=english]{csquotes}
+\MakeOuterQuote{"}
+\usepackage[shortlabels]{enumitem}
+\setlist[enumerate]{font=\color{Red}}
+\usepackage{listings}
+
+\begin{document}
+    \input{chapter/summary.tex}
+    \clearpage
+    \input{chapter/data_collection.tex}
+    \clearpage
+    \input{chapter/methodology.tex}
+    \clearpage
+    \input{chapter/conclusion.tex}
+    \clearpage
+    \input{chapter/appendix.tex}
+    \clearpage
+\end{document}
