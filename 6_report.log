@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  19 APR 2025 17:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  19 APR 2025 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1620,8 +1620,35 @@ Package csquotes Info: Making character " active on input line 177.
 
 ]
 
-[2] (chapter/data_collection.tex) (chapter/methodology.tex)
-(chapter/conclusion.tex) (chapter/appendix.tex) (6_report.aux)
+[2] (chapter/data_collection.tex)
+
+[3
+
+
+]
+
+[4] (chapter/methodology.tex)
+
+[5
+
+
+]
+
+[6] (chapter/conclusion.tex)
+
+[7
+
+
+]
+
+[8] (chapter/appendix.tex)
+
+[9
+
+
+]
+
+[10] (6_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1636,4 +1663,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  94i,5n,117p,734b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 6_report.pdf (2 pages).
+Output written on 6_report.pdf (10 pages).
