@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 20:35
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1697,28 +1697,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
 [2
 
 
-] (chapter/methodology.tex)
+] (chapter/methodology.tex
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \begin
+            {table}[ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 \begin
+            {table}[ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \begin
+            {table}[ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \begin
+            {table}[ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 
 [3
 
 
 ]
 
-[4] (chapter/conclusion.tex)
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 234--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--268
+
+ []
+
+
 
 [5
 
-
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 268--286
 
-[6] (chapter/appendix.tex)
+ []
+
+)
+
+[6] (chapter/conclusion.tex)
 
 [7
 
 
 ]
 
-[8] (6_report.aux)
+[8] (chapter/appendix.tex)
+
+[9
+
+
+]
+
+[10] (6_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1730,12 +1804,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 41932 strings out of 408644
- 1040742 string characters out of 5744893
- 1959610 words of memory out of 5000000
- 64339 multiletter control sequences out of 15000+600000
- 584524 words of font info for 63 fonts, out of 8000000 for 9000
+ 41938 strings out of 408644
+ 1040889 string characters out of 5744893
+ 1960604 words of memory out of 5000000
+ 64345 multiletter control sequences out of 15000+600000
+ 590537 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,18n,117p,1211b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 6_report.pdf (8 pages).
+Output written on 6_report.pdf (10 pages).
