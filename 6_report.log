@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 09:55
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1614,58 +1614,60 @@ Package csquotes Info: Making character " active on input line 177.
 \c@lstlisting=\count446
 
 (chapter/summary.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
-[1
+ []
 
-
-]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 4.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 5.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
 .
- (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
 .
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-4.
+5.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-4.
+5.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 4.
+(Font)              <11> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 4.
+(Font)              <7.69997> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(Font)              <5.5> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `U/matha/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 4.
+(Font)              size <5> substituted on input line 5.
 
 )
 
-[2] (chapter/data_collection.tex
+[1
+
+
+] (chapter/data_collection.tex
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
 []\T1/lmr/m/n/11 Else if it's far-sight-ed-ness
  []
@@ -1677,31 +1679,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
 )
 
-[3
+[2
 
 
 ] (chapter/methodology.tex)
 
-[4
+[3
 
 
 ]
 
-[5] (chapter/conclusion.tex)
+[4] (chapter/conclusion.tex)
 
-[6
-
-
-]
-
-[7] (chapter/appendix.tex)
-
-[8
+[5
 
 
 ]
 
-[9] (6_report.aux)
+[6] (chapter/appendix.tex)
+
+[7
+
+
+]
+
+[8] (6_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1721,4 +1723,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  94i,7n,117p,734b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 6_report.pdf (9 pages).
+Output written on 6_report.pdf (8 pages).
