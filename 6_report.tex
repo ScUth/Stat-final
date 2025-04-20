@@ -43,7 +43,6 @@
 \tikzexternalize
 \usepackage{etoolbox}
 \usepackage{letltxmacro}
-\usepackage{adjustbox}
 \usepackage{xfrac}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{colortbl}
@@ -57,10 +56,11 @@
 \usepgfplotslibrary{statistics}
 \usepackage{siunitx}
 \usepackage{graphicx}
-\usepackage{adjustbox}
 \usepackage{longtable}
 \usepackage{array}
 \usepackage[options]{lipsum}
+\usepackage{slashbox}
+\usepackage{adjustbox}
 
 \def\dotfill#1{\cleaders\hbox to #1{.}\hfill}
 \makeatletter
@@ -173,6 +173,7 @@
 \usepackage[shortlabels]{enumitem}
 \setlist[enumerate]{font=\color{Red}}
 \usepackage{listings}
+\usepackage[table,xcdraw]{xcolor}
 
 \begin{document}
     \input{chapter/summary.tex}

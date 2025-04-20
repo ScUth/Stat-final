@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 14:07
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,57 +1051,15 @@ and I'll forget about whatever was undefined.
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
 .sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
-Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
-(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
-Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
-
-(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
-ty
-Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box81
-)
-\tc@llx=\dimen315
-\tc@lly=\dimen316
-\tc@urx=\dimen317
-\tc@ury=\dimen318
-Package trimclip Info: Using driver 'tc-xetex.def'.
-
-(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
-File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
-))
-\adjbox@Width=\dimen319
-\adjbox@Height=\dimen320
-\adjbox@Depth=\dimen321
-\adjbox@Totalheight=\dimen322
-\adjbox@pwidth=\dimen323
-\adjbox@pheight=\dimen324
-\adjbox@pdepth=\dimen325
-\adjbox@ptotalheight=\dimen326
-
-(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
-Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count389
-) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box82
-\sift@deathcycles=\count390
-\@vwid@loff=\dimen327
-\@vwid@roff=\dimen328
-)) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/xfrac\xfrac.sty
+) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/xfrac\xfrac.sty
 Package: xfrac 2024-06-04 Split-level fractions
-\l__xfrac_slash_box=\box83
-\l__xfrac_tmp_box=\box84
-\l__xfrac_denominator_bot_sep_dim=\dimen329
-\l__xfrac_numerator_bot_sep_dim=\dimen330
-\l__xfrac_numerator_top_sep_dim=\dimen331
-\l__xfrac_slash_left_sep_dim=\dimen332
-\l__xfrac_slash_right_sep_dim=\dimen333
+\l__xfrac_slash_box=\box81
+\l__xfrac_tmp_box=\box82
+\l__xfrac_denominator_bot_sep_dim=\dimen315
+\l__xfrac_numerator_bot_sep_dim=\dimen316
+\l__xfrac_numerator_top_sep_dim=\dimen317
+\l__xfrac_slash_left_sep_dim=\dimen318
+\l__xfrac_slash_right_sep_dim=\dimen319
 \l__xfrac_slash_left_muskip=\muskip18
 \l__xfrac_slash_right_muskip=\muskip19
 
@@ -1126,17 +1084,17 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen334
-\ar@mcellbox=\box85
-\extrarowheight=\dimen335
+\col@sep=\dimen320
+\ar@mcellbox=\box83
+\extrarowheight=\dimen321
 \NC@list=\toks50
 \extratabsurround=\skip109
 \backup@length=\skip110
-\ar@cellbox=\box86
+\ar@cellbox=\box84
 )
 \everycr=\toks51
 \minrowclearance=\skip111
-\rownum=\count391
+\rownum=\count389
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1168,7 +1126,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \usepackage
+l.52 \usepackage
                 [options]{multicol}
 The package amsmath has already been loaded with options:
   []
@@ -1181,7 +1139,7 @@ Try typing  <return>  to proceed.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
-\c@tracingmulticols=\count392
+\c@tracingmulticols=\count390
 
 
 ! LaTeX Error: Unknown option `options' for package `multicol'.
@@ -1195,27 +1153,29 @@ l.140 \def
 The option `options' was not declared in package `multicol', perhaps you
 misspelled its name. Try typing  <return>  to proceed.
 
-\mult@box=\box87
-\multicol@leftmargin=\dimen336
-\c@unbalance=\count393
-\c@collectmore=\count394
-\doublecol@number=\count395
-\multicoltolerance=\count396
-\multicolpretolerance=\count397
-\full@width=\dimen337
-\page@free=\dimen338
-\premulticols=\dimen339
-\postmulticols=\dimen340
+\mult@box=\box85
+\multicol@leftmargin=\dimen322
+\c@unbalance=\count391
+\c@collectmore=\count392
+\doublecol@number=\count393
+\multicoltolerance=\count394
+\multicolpretolerance=\count395
+\full@width=\dimen323
+\page@free=\dimen324
+\premulticols=\dimen325
+\postmulticols=\dimen326
 \multicolsep=\skip112
 \multicolbaselineskip=\skip113
-\partial@page=\box88
-\last@line=\box89
-\mc@boxedresult=\box90
-\maxbalancingoverflow=\dimen341
-\mult@rightbox=\box91
-\mult@grightbox=\box92
-\mult@firstbox=\box93
-\mult@gfirstbox=\box94
+\partial@page=\box86
+\last@line=\box87
+\mc@boxedresult=\box88
+\maxbalancingoverflow=\dimen327
+\mult@rightbox=\box89
+\mult@grightbox=\box90
+\mult@firstbox=\box91
+\mult@gfirstbox=\box92
+\@tempa=\box93
+\@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
 \@tempa=\box97
@@ -1250,34 +1210,32 @@ misspelled its name. Try typing  <return>  to proceed.
 \@tempa=\box126
 \@tempa=\box127
 \@tempa=\box128
-\@tempa=\box129
-\@tempa=\box130
-\c@minrows=\count398
-\c@columnbadness=\count399
-\c@finalcolumnbadness=\count400
-\last@try=\dimen342
-\multicolovershoot=\dimen343
-\multicolundershoot=\dimen344
-\mult@nat@firstbox=\box131
-\colbreak@box=\box132
-\mc@col@check@num=\count401
+\c@minrows=\count396
+\c@columnbadness=\count397
+\c@finalcolumnbadness=\count398
+\last@try=\dimen328
+\multicolovershoot=\dimen329
+\multicolundershoot=\dimen330
+\mult@nat@firstbox=\box129
+\colbreak@box=\box130
+\mc@col@check@num=\count399
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count402
-\l_MT_multwidth_dim=\dimen345
+\g_MT_multlinerow_int=\count400
+\l_MT_multwidth_dim=\dimen331
 \origjot=\skip114
-\l_MT_shortvdotswithinadjustabove_dim=\dimen346
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen347
-\l_MT_above_intertext_sep=\dimen348
-\l_MT_below_intertext_sep=\dimen349
-\l_MT_above_shortintertext_sep=\dimen350
-\l_MT_below_shortintertext_sep=\dimen351
-\xmathstrut@box=\box133
-\xmathstrut@dim=\dimen352
+\l_MT_shortvdotswithinadjustabove_dim=\dimen332
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen333
+\l_MT_above_intertext_sep=\dimen334
+\l_MT_below_intertext_sep=\dimen335
+\l_MT_above_shortintertext_sep=\dimen336
+\l_MT_below_shortintertext_sep=\dimen337
+\xmathstrut@box=\box131
+\xmathstrut@dim=\dimen338
 ) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 
@@ -1294,47 +1252,47 @@ The option `options' was not declared in package `multirow', perhaps you
 misspelled its name. Try typing  <return>  to proceed.
 
 \multirow@colwidth=\skip115
-\multirow@cntb=\count403
+\multirow@cntb=\count401
 \multirow@dima=\skip116
-\bigstrutjot=\dimen353
+\bigstrutjot=\dimen339
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
 rarypgfplots.statistics.code.tex)
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-02-19 v3.4.5 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count404
-\l__siunitx_number_exponent_fixed_int=\count405
-\l__siunitx_number_min_decimal_int=\count406
-\l__siunitx_number_min_integer_int=\count407
-\l__siunitx_number_round_precision_int=\count408
-\l__siunitx_number_lower_threshold_int=\count409
-\l__siunitx_number_upper_threshold_int=\count410
-\l__siunitx_number_group_first_int=\count411
-\l__siunitx_number_group_size_int=\count412
-\l__siunitx_number_group_minimum_int=\count413
-\l__siunitx_angle_tmp_dim=\dimen354
-\l__siunitx_angle_marker_box=\box134
-\l__siunitx_angle_unit_box=\box135
-\l__siunitx_compound_count_int=\count414
+\l__siunitx_number_uncert_offset_int=\count402
+\l__siunitx_number_exponent_fixed_int=\count403
+\l__siunitx_number_min_decimal_int=\count404
+\l__siunitx_number_min_integer_int=\count405
+\l__siunitx_number_round_precision_int=\count406
+\l__siunitx_number_lower_threshold_int=\count407
+\l__siunitx_number_upper_threshold_int=\count408
+\l__siunitx_number_group_first_int=\count409
+\l__siunitx_number_group_size_int=\count410
+\l__siunitx_number_group_minimum_int=\count411
+\l__siunitx_angle_tmp_dim=\dimen340
+\l__siunitx_angle_marker_box=\box132
+\l__siunitx_angle_unit_box=\box133
+\l__siunitx_compound_count_int=\count412
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_table_tmp_box=\box136
-\l__siunitx_table_tmp_dim=\dimen355
-\l__siunitx_table_column_width_dim=\dimen356
-\l__siunitx_table_integer_box=\box137
-\l__siunitx_table_decimal_box=\box138
-\l__siunitx_table_uncert_box=\box139
-\l__siunitx_table_before_box=\box140
-\l__siunitx_table_after_box=\box141
-\l__siunitx_table_before_dim=\dimen357
-\l__siunitx_table_carry_dim=\dimen358
-\l__siunitx_unit_tmp_int=\count415
-\l__siunitx_unit_position_int=\count416
-\l__siunitx_unit_total_int=\count417
+\l__siunitx_table_tmp_box=\box134
+\l__siunitx_table_tmp_dim=\dimen341
+\l__siunitx_table_column_width_dim=\dimen342
+\l__siunitx_table_integer_box=\box135
+\l__siunitx_table_decimal_box=\box136
+\l__siunitx_table_uncert_box=\box137
+\l__siunitx_table_before_box=\box138
+\l__siunitx_table_after_box=\box139
+\l__siunitx_table_before_dim=\dimen343
+\l__siunitx_table_carry_dim=\dimen344
+\l__siunitx_unit_tmp_int=\count413
+\l__siunitx_unit_position_int=\count414
+\l__siunitx_unit_total_int=\count415
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
@@ -1342,17 +1300,17 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTright=\skip118
 \LTpre=\skip119
 \LTpost=\skip120
-\LTchunksize=\count418
-\LTcapwidth=\dimen359
-\LT@head=\box142
-\LT@firsthead=\box143
-\LT@foot=\box144
-\LT@lastfoot=\box145
-\LT@gbox=\box146
-\LT@cols=\count419
-\LT@rows=\count420
-\c@LT@tables=\count421
-\c@LT@chunks=\count422
+\LTchunksize=\count416
+\LTcapwidth=\dimen345
+\LT@head=\box140
+\LT@firsthead=\box141
+\LT@foot=\box142
+\LT@lastfoot=\box143
+\LT@gbox=\box144
+\LT@cols=\count417
+\LT@rows=\count418
+\c@LT@tables=\count419
+\c@LT@chunks=\count420
 \LT@p@ftn=\toks52
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
@@ -1361,9 +1319,9 @@ eys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count423
-\l__lipsum_a_int=\count424
-\l__lipsum_b_int=\count425
+\g__lipsum_par_int=\count421
+\l__lipsum_a_int=\count422
+\l__lipsum_b_int=\count423
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)
 
@@ -1379,7 +1337,58 @@ LaTeX has been asked to set an option called 'options' but the lipsum package
 has not created an option with this name.
 
 
+) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/slashbox\slashbox.sty
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box145
+\@slashboxb=\box146
+\@slashboxc=\box147
+\@slashboxwd=\count424
+\@slashboxht=\count425
+\@slashsepl=\dimen346
+\@slashsepr=\dimen347
 )
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box148
+)
+\tc@llx=\dimen348
+\tc@lly=\dimen349
+\tc@urx=\dimen350
+\tc@ury=\dimen351
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen352
+\adjbox@Height=\dimen353
+\adjbox@Depth=\dimen354
+\adjbox@Totalheight=\dimen355
+\adjbox@pwidth=\dimen356
+\adjbox@pheight=\dimen357
+\adjbox@pdepth=\dimen358
+\adjbox@ptotalheight=\dimen359
+
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count426
+) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box149
+\sift@deathcycles=\count427
+\@vwid@loff=\dimen360
+\@vwid@roff=\dimen361
+))
 \symmatha=\mathgroup6
 
 
@@ -1444,33 +1453,33 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen360
-\ESO@tempdimb=\dimen361
+\ESO@tempdima=\dimen362
+\ESO@tempdimb=\dimen363
 )
-\AM@pagewidth=\dimen362
-\AM@pageheight=\dimen363
-\AM@fboxrule=\dimen364
+\AM@pagewidth=\dimen364
+\AM@pageheight=\dimen365
+\AM@fboxrule=\dimen366
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
 File: ppxetex.def 2025/01/30 v0.6e Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count426
-\AM@pagebox=\box147
+\pdfpages@includegraphics@status=\count428
+\AM@pagebox=\box150
 \AM@global@opts=\toks54
-\AM@pagecnt=\count427
+\AM@pagecnt=\count429
 \AM@toc@title=\toks55
 \AM@lof@heading=\toks56
-\c@AM@survey=\count428
-\AM@templatesizebox=\box148
+\c@AM@survey=\count430
+\AM@templatesizebox=\box151
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count429
-\csq@gtype=\count430
-\csq@glevel=\count431
-\csq@qlevel=\count432
-\csq@maxlvl=\count433
-\csq@tshold=\count434
+\csq@reset=\count431
+\csq@gtype=\count432
+\csq@glevel=\count433
+\csq@qlevel=\count434
+\csq@maxlvl=\count435
+\csq@tshold=\count436
 \csq@ltx@everypar=\toks57
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -1490,39 +1499,43 @@ Package csquotes Info: Allocating character ".
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip135
-\enit@outerparindent=\dimen365
+\enit@outerparindent=\dimen367
 \enit@toks=\toks58
-\enit@inbox=\box149
-\enit@count@id=\count435
-\enitdp@description=\count436
+\enit@inbox=\box152
+\enit@count@id=\count437
+\enitdp@description=\count438
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count437
-\lst@gtempboxa=\box150
+\lst@mode=\count439
+\lst@gtempboxa=\box153
 \lst@token=\toks59
-\lst@length=\count438
-\lst@currlwidth=\dimen366
-\lst@column=\count439
-\lst@pos=\count440
-\lst@lostspace=\dimen367
-\lst@width=\dimen368
-\lst@newlines=\count441
-\lst@lineno=\count442
-\lst@maxwidth=\dimen369
+\lst@length=\count440
+\lst@currlwidth=\dimen368
+\lst@column=\count441
+\lst@pos=\count442
+\lst@lostspace=\dimen369
+\lst@width=\dimen370
+\lst@newlines=\count443
+\lst@lineno=\count444
+\lst@maxwidth=\dimen371
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count443
-\lst@skipnumbers=\count444
-\lst@framebox=\box151
+\c@lstnumber=\count445
+\lst@skipnumbers=\count446
+\lst@framebox=\box154
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+LaTeX Warning: Package "xcolor" has already been loaded: ignoring load-time
+(LaTeX)        option "xcdraw".
+
 
 LaTeX Warning: Unused global option(s):
     [5pt].
@@ -1530,22 +1543,22 @@ LaTeX Warning: Unused global option(s):
 (6_report.aux)
 \openout1 = `6_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1588,9 +1601,9 @@ Package caption Info: End \AtBeginDocument code.
 ty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
-\flrow@LT@lasthead=\box152
-\flrow@LT@prelastfoot=\box153
-\c@FBLTpage=\count445
+\flrow@LT@lasthead=\box155
+\flrow@LT@prelastfoot=\box156
+\c@FBLTpage=\count447
 )
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1610,8 +1623,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-Package csquotes Info: Making character " active on input line 177.
-\c@lstlisting=\count446
+Package csquotes Info: Making character " active on input line 178.
+\c@lstlisting=\count448
 
 (chapter/summary.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -1715,12 +1728,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 41868 strings out of 408644
- 1039379 string characters out of 5744893
- 1672242 words of memory out of 5000000
- 64280 multiletter control sequences out of 15000+600000
+ 41912 strings out of 408644
+ 1040273 string characters out of 5744893
+ 1913086 words of memory out of 5000000
+ 64321 multiletter control sequences out of 15000+600000
  584524 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,7n,117p,734b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,18n,117p,1372b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 6_report.pdf (8 pages).
