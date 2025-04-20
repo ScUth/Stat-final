@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 22:42
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1700,47 +1700,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \begin
-            {table}[ht]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139 \begin
-            {table}[ht]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \begin
-            {table}[ht]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 \begin
-            {table}[ht]
+l.118 \subsection
+                 *{Screen time vs Sleeping time}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1752,47 +1713,91 @@ or  <return>  to continue without it.
 
 ]
 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \subsection
+                 *{Screen time vs Notification}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \subsection
+                 *{Screen time vs Heart rate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 \subsection
+                 *{Screen time vs Weight}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 234--251
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 241--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--268
+Underfull \hbox (badness 10000) in paragraph at lines 258--275
 
  []
 
 
 
-[5
+[6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 268--285
+Underfull \hbox (badness 10000) in paragraph at lines 275--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--309
 
  []
 
-)
-
-[6] (chapter/conclusion.tex)
-
-[7
 
 
-]
+[7])
 
-[8] (chapter/appendix.tex)
+[8] (chapter/conclusion.tex)
 
 [9
 
 
 ]
 
-[10] (6_report.aux)
+[10] (chapter/appendix.tex)
+
+[11
+
+
+]
+
+[12] (6_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1804,12 +1809,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 41938 strings out of 408644
- 1040889 string characters out of 5744893
- 1960604 words of memory out of 5000000
- 64345 multiletter control sequences out of 15000+600000
- 590537 words of font info for 65 fonts, out of 8000000 for 9000
+ 41940 strings out of 408644
+ 1040928 string characters out of 5744893
+ 1869247 words of memory out of 5000000
+ 64347 multiletter control sequences out of 15000+600000
+ 596534 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,18n,117p,1211b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 6_report.pdf (10 pages).
+Output written on 6_report.pdf (12 pages).
