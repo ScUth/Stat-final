@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 17:33
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1388,7 +1388,9 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count427
 \@vwid@loff=\dimen360
 \@vwid@roff=\dimen361
-))
+)) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
 \symmatha=\mathgroup6
 
 
@@ -1399,7 +1401,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 }
+l.109 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1543,22 +1545,22 @@ LaTeX Warning: Unused global option(s):
 (6_report.aux)
 \openout1 = `6_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1623,7 +1625,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-Package csquotes Info: Making character " active on input line 178.
+Package csquotes Info: Making character " active on input line 179.
 \c@lstlisting=\count448
 
 (chapter/summary.tex
@@ -1728,12 +1730,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 41912 strings out of 408644
- 1040273 string characters out of 5744893
- 1913086 words of memory out of 5000000
- 64321 multiletter control sequences out of 15000+600000
+ 41932 strings out of 408644
+ 1040742 string characters out of 5744893
+ 1959610 words of memory out of 5000000
+ 64339 multiletter control sequences out of 15000+600000
  584524 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,18n,117p,1372b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,18n,117p,1211b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 6_report.pdf (8 pages).
