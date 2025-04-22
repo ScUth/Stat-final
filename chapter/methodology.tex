@@ -115,6 +115,45 @@
             \end{tabular}%
     \end{adjustbox}
 \end{table}\\
+\begin{figure}[hb!]
+    \begin{tikzpicture}[scale=0.51]
+        \begin{axis}
+            [
+                xlabel = screen duration (Hrs),
+                ylabel = \(\widehat{P}(X)\),
+                width = 0.9\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 2, xmax = 17,
+                xtick distance = 1,
+                ytick distance = 0.05,
+                title = \(\widehat{P}(X)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar interval] table [y=Px_SA, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \begin{tikzpicture}[scale=0.35]
+        \begin{axis}
+            [
+                xlabel = Age,
+                ylabel = \(\widehat{P}(Y)\),
+                width = 1.3\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 6, xmax = 58,
+                xtick distance =2,
+                ytick distance = 0.025,
+                title = \(\widehat{P}(Y)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar] table [y=Py_SA, col sep=comma, x expr=\coordindex+7] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
+\\
 \subsection*{Screen time vs Sleeping time}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
@@ -139,7 +178,125 @@
         \end{tabular}%
     \end{adjustbox}
 \end{table}\\
+\begin{figure}[hb!]
+    \begin{tikzpicture}[scale=0.51]
+        \begin{axis}
+            [
+                xlabel = screen duration (Hrs),
+                ylabel = \(\widehat{P}(X)\),
+                width = 0.9\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 2, xmax = 17,
+                xtick distance = 1,
+                ytick distance = 0.05,
+                title = \(\widehat{P}(X)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar interval] table [y=Px_SS, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \begin{tikzpicture}[scale=0.8]
+        \begin{axis}
+            [
+                xlabel = Sleeping time,
+                ylabel = \(\widehat{P}(Y)\),
+                width = 0.6\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 4, xmax = 11,
+                xtick distance =1,
+                ytick distance = 0.1,
+                title = \(\widehat{P}(Y)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar interval] table [y=Py_SS, col sep=comma, x expr=\coordindex+4] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}\\
 \subsection*{Screen time vs Notification}
+\begin{table}[ht]
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|cc|
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |r|
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |
+    >{\columncolor[HTML]{FFFFFF}}r |rrr|}
+    \hline
+    \multicolumn{2}{|c|}{}                                                          & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}2} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}3} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}4} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}5} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}6} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}7} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}8} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}9}  & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}10} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}11} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}12} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}13} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}14} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}15} & \multicolumn{1}{c|}{\cellcolor[HTML]{F4CCCC}16} & \multicolumn{1}{c|}{\cellcolor[HTML]{D9D2E9}}                                   & \multicolumn{1}{c|}{\cellcolor[HTML]{D9D2E9}}                           & \multicolumn{1}{c|}{\cellcolor[HTML]{D9D2E9}}                                                    \\
+    \multicolumn{2}{|c|}{\multirow{-2}{*}{\backslashbox{$y$}{$x$}}}                 & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}3} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}4} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}5} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}6} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}7} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}8} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}9} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}10} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}11} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}12} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}13} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}14} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}15} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}16} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFEBEA}17} & \multicolumn{1}{c|}{\multirow{-2}{*}{\cellcolor[HTML]{D9D2E9}$\widehat{P}(Y)$}} & \multicolumn{1}{c|}{\multirow{-2}{*}{\cellcolor[HTML]{D9D2E9}midpoint}} & \multicolumn{1}{c|}{\multirow{-2}{*}{\cellcolor[HTML]{D9D2E9}$\mathrm{mid}\cdot\widehat{P}(Y)$}} \\ \hline
+    \cellcolor[HTML]{C8E4BE}0              & \cellcolor[HTML]{D9EAD3}25             & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{57BB8A}0.0545                 & 0                                              & 0                                              & 0                                              & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.1091}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}12.5}                       & \cellcolor[HTML]{D9D2E9}1.3636                                                                   \\ \hline
+    \cellcolor[HTML]{C8E4BE}25             & \cellcolor[HTML]{D9EAD3}50             & 0                                              & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{57BB8A}0.0545                 & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                               & \cellcolor[HTML]{C7E9D8}0.0182                  & 0                                               & 0                                               & \cellcolor[HTML]{C7E9D8}0.0182                  & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.1455}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}37.5}                       & \cellcolor[HTML]{D9D2E9}5.4545                                                                   \\ \hline
+    \cellcolor[HTML]{C8E4BE}50             & \cellcolor[HTML]{D9EAD3}75             & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{FFFFFF}0                      & \cellcolor[HTML]{8FD2B1}0.0364                 & 0                                              & 0                                              & \cellcolor[HTML]{8FD2B1}0.0364                 & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.1091}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}62.5}                       & \cellcolor[HTML]{D9D2E9}6.8182                                                                   \\ \hline
+    \cellcolor[HTML]{C8E4BE}75             & \cellcolor[HTML]{D9EAD3}100            & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{57BB8A}0.0545                 & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{8FD2B1}0.0364                 & \cellcolor[HTML]{8FD2B1}0.0364                 & 0                                              & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                  & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \cellcolor[HTML]{C7E9D8}0.0182                  & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.2000}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}87.5}                       & \cellcolor[HTML]{D9D2E9}17.5000                                                                  \\ \hline
+    \cellcolor[HTML]{C8E4BE}100            & \cellcolor[HTML]{D9EAD3}125            & 0                                              & \cellcolor[HTML]{8FD2B1}0.0364                 & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                  & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.1273}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}112.5}                      & \cellcolor[HTML]{D9D2E9}14.3182                                                                  \\ \hline
+    \cellcolor[HTML]{C8E4BE}125            & \cellcolor[HTML]{D9EAD3}150            & 0                                              & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                              & 0                                              & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{8FD2B1}0.0364                  & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.0727}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}137.5}                      & \cellcolor[HTML]{D9D2E9}10.0000                                                                  \\ \hline
+    \cellcolor[HTML]{C8E4BE}150            & \cellcolor[HTML]{D9EAD3}175            & 0                                              & 0                                              & \cellcolor[HTML]{FFFFFF}0                      & 0                                              & 0                                              & \cellcolor[HTML]{57BB8A}0.0545                 & 0                                              & 0                                               & \cellcolor[HTML]{C7E9D8}0.0182                  & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.0727}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}162.5}                      & \cellcolor[HTML]{D9D2E9}11.8182                                                                  \\ \hline
+    \cellcolor[HTML]{C8E4BE}175            & \cellcolor[HTML]{D9EAD3}200            & 0                                              & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                              & 0                                              & 0                                              & \cellcolor[HTML]{8FD2B1}0.0364                 & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.0545}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}187.5}                      & \cellcolor[HTML]{D9D2E9}10.2273                                                                  \\ \hline
+    \cellcolor[HTML]{C8E4BE}200            & \cellcolor[HTML]{D9EAD3}225            & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                 & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                              & 0                                              & 0                                              & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                  & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.0545}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}212.5}                      & \cellcolor[HTML]{D9D2E9}11.5909                                                                  \\ \hline
+    \cellcolor[HTML]{C8E4BE}225            & \cellcolor[HTML]{D9EAD3}250            & 0                                              & 0                                              & \cellcolor[HTML]{FFFFFF}0                      & 0                                              & 0                                              & 0                                              & 0                                              & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0}                                  & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}237.5}                      & \cellcolor[HTML]{D9D2E9}0                                                                        \\ \hline
+    \cellcolor[HTML]{C8E4BE}250            & \cellcolor[HTML]{D9EAD3}275            & 0                                              & 0                                              & \cellcolor[HTML]{FFFFFF}0                      & 0                                              & 0                                              & 0                                              & 0                                              & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0}                                  & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}262.5}                      & \cellcolor[HTML]{D9D2E9}0                                                                        \\ \hline
+    \cellcolor[HTML]{C8E4BE}275            & \cellcolor[HTML]{D9EAD3}300            & 0                                              & 0                                              & \cellcolor[HTML]{FFFFFF}0                      & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                              & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.0364}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}287.5}                      & \cellcolor[HTML]{D9D2E9}10.4545                                                                  \\ \hline
+    \cellcolor[HTML]{C8E4BE}300            & \cellcolor[HTML]{D9EAD3}325            & 0                                              & 0                                              & \cellcolor[HTML]{FFFFFF}0                      & 0                                              & 0                                              & 0                                              & 0                                              & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0}                                  & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}312.5}                      & \cellcolor[HTML]{D9D2E9}0                                                                        \\ \hline
+    \cellcolor[HTML]{C8E4BE}325            & \cellcolor[HTML]{D9EAD3}350            & 0                                              & 0                                              & \cellcolor[HTML]{FFFFFF}0                      & 0                                              & 0                                              & 0                                              & 0                                              & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0}                                  & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}337.5}                      & \cellcolor[HTML]{D9D2E9}0                                                                        \\ \hline
+    \cellcolor[HTML]{C8E4BE}350            & \cellcolor[HTML]{D9EAD3}375            & 0                                              & 0                                              & \cellcolor[HTML]{FFFFFF}0                      & 0                                              & \cellcolor[HTML]{C7E9D8}0.0182                 & 0                                              & 0                                              & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & 0                                               & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}0.0182}                             & \multicolumn{1}{r|}{\cellcolor[HTML]{D9D2E9}362.5}                      & \cellcolor[HTML]{D9D2E9}6.5909                                                                   \\ \hline
+    \multicolumn{2}{|c|}{\cellcolor[HTML]{FCE5CD}$\widehat{P}(X)$}                  & \cellcolor[HTML]{FCE5CD}0.0545                 & \cellcolor[HTML]{FCE5CD}0.1455                 & \cellcolor[HTML]{FCE5CD}0.1273                 & \cellcolor[HTML]{FCE5CD}0.1636                 & \cellcolor[HTML]{FCE5CD}0.0909                 & \cellcolor[HTML]{FCE5CD}0.1273                 & \cellcolor[HTML]{FCE5CD}0.1273                 & \cellcolor[HTML]{FCE5CD}0.0909                  & \cellcolor[HTML]{FCE5CD}0.0364                  & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0.0182                  & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0.0182                  & \multicolumn{1}{l}{}                                                            & \multicolumn{1}{l}{}                                                    & \multicolumn{1}{l|}{}                                                                            \\ \hhline{*{17}{-}~--} 
+    \multicolumn{2}{|c|}{\cellcolor[HTML]{FCE5CD}midpoint}                          & \cellcolor[HTML]{FCE5CD}2.5                    & \cellcolor[HTML]{FCE5CD}3.5                    & \cellcolor[HTML]{FCE5CD}4.5                    & \cellcolor[HTML]{FCE5CD}5.5                    & \cellcolor[HTML]{FCE5CD}6.5                    & \cellcolor[HTML]{FCE5CD}7.5                    & \cellcolor[HTML]{FCE5CD}8.5                    & \cellcolor[HTML]{FCE5CD}9.5                     & \cellcolor[HTML]{FCE5CD}10.5                    & \cellcolor[HTML]{FCE5CD}11.5                    & \cellcolor[HTML]{FCE5CD}12.5                    & \cellcolor[HTML]{FCE5CD}13.5                    & \cellcolor[HTML]{FCE5CD}14.5                    & \cellcolor[HTML]{FCE5CD}15.5                    & \cellcolor[HTML]{FCE5CD}16.5                    & \multicolumn{1}{l|}{}                                                           & \multicolumn{1}{l|}{\cellcolor[HTML]{D0E0E3}$\widehat{E}(X)$}           & \cellcolor[HTML]{D0E0E3}106.1364                                                                 \\ \hhline{*{17}{-}~--} 
+    \multicolumn{2}{|c|}{\cellcolor[HTML]{FCE5CD}$\mathrm{mid}\cdot\widehat{P}(X)$} & \cellcolor[HTML]{FCE5CD}0.1364                 & \cellcolor[HTML]{FCE5CD}0.5091                 & \cellcolor[HTML]{FCE5CD}0.5727                 & \cellcolor[HTML]{FCE5CD}0.9                    & \cellcolor[HTML]{FCE5CD}0.5909                 & \cellcolor[HTML]{FCE5CD}0.9545                 & \cellcolor[HTML]{FCE5CD}1.0818                 & \cellcolor[HTML]{FCE5CD}0.8636                  & \cellcolor[HTML]{FCE5CD}0.3818                  & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0.2455                  & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0.3000                  & \multicolumn{1}{l|}{}                                                           & \multicolumn{1}{l|}{\cellcolor[HTML]{D0E0E3}$\widehat{E}(Y)$}           & \cellcolor[HTML]{D0E0E3}6.5364                                                                   \\ \hline
+    \end{tabular}%
+    }
+\end{table}\\
+\begin{figure}[hb!]
+    \begin{tikzpicture}[scale=0.51]
+        \begin{axis}
+            [
+                xlabel = screen duration (Hrs),
+                ylabel = \(\widehat{P}(X)\),
+                width = 0.9\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 2, xmax = 17,
+                xtick distance = 1,
+                ytick distance = 0.05,
+                title = \(\widehat{P}(X)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar interval] table [y=Px_SA, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \begin{tikzpicture}[scale=0.35]
+        \begin{axis}
+            [
+                xlabel = Age,
+                ylabel = \(\widehat{P}(Y)\),
+                width = 1.3\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 6, xmax = 58,
+                xtick distance =2,
+                ytick distance = 0.025,
+                title = \(\widehat{P}(Y)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar] table [y=Py_SA, col sep=comma, x expr=\coordindex+7] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
+\subsection*{Screen time vs Heart rate}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
         \begin{tabular}{|cc|r|r|r|r|r|r|r|r|r|r|r|r|r|r|r|rrr|}
@@ -176,7 +333,45 @@
         \end{tabular}%
     \end{adjustbox}
 \end{table}\\
-\subsection*{Screen time vs Heart rate}
+\begin{figure}[hb!]
+    \begin{tikzpicture}[scale=0.51]
+        \begin{axis}
+            [
+                xlabel = screen duration (Hrs),
+                ylabel = \(\widehat{P}(X)\),
+                width = 0.9\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 2, xmax = 17,
+                xtick distance = 1,
+                ytick distance = 0.05,
+                title = \(\widehat{P}(X)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar interval] table [y=Px_SA, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \begin{tikzpicture}[scale=0.35]
+        \begin{axis}
+            [
+                xlabel = Age,
+                ylabel = \(\widehat{P}(Y)\),
+                width = 1.3\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 6, xmax = 58,
+                xtick distance =2,
+                ytick distance = 0.025,
+                title = \(\widehat{P}(Y)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar] table [y=Py_SA, col sep=comma, x expr=\coordindex+7] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
+\subsection*{Screen time vs Weight}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
         \begin{tabular}{|cc|r|r|r|r|r|r|r|r|r|r|r|r|r|r|r|rrr|}
@@ -204,12 +399,52 @@
         \end{tabular}%
     \end{adjustbox}
 \end{table}\\
-\subsection*{Screen time vs Weight}
+\begin{figure}[hb!]
+    \begin{tikzpicture}[scale=0.51]
+        \begin{axis}
+            [
+                xlabel = screen duration (Hrs),
+                ylabel = \(\widehat{P}(X)\),
+                width = 0.9\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 2, xmax = 17,
+                xtick distance = 1,
+                ytick distance = 0.05,
+                title = \(\widehat{P}(X)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar interval] table [y=Px_SA, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+    \begin{tikzpicture}[scale=0.35]
+        \begin{axis}
+            [
+                xlabel = Age,
+                ylabel = \(\widehat{P}(Y)\),
+                width = 1.3\textwidth,
+                grid,
+                ybar,
+                ymin = 0,
+                xmin = 6, xmax = 58,
+                xtick distance =2,
+                ytick distance = 0.025,
+                title = \(\widehat{P}(Y)\),
+                % nodes near coords style={font=\tiny}
+            ]
+            \addplot+[ybar] table [y=Py_SA, col sep=comma, x expr=\coordindex+7] {6 graph.csv};
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
+\clearpage\newpage
+\section*{Statistics}
+\subsection*{Descriptive Statistics}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
         \begin{tabular}{|cl|r|r|r|r|r|r|}
         \hline
-        \multicolumn{2}{|l|}{}                                                                                                                        & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Age} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Weight (Kg)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Heart Rate} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Sleeping time (Hrs)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Average daily screen time (Hrs)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Average daily notification received} \\ \hline
+        \multicolumn{2}{|l|}{}                                                                                                                        & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Age} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Weight (kg)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Heart Rate} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Sleeping time (Hrs)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Average daily screen time (Hrs)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Average daily notification received} \\ \hline
         \multicolumn{2}{|c|}{\cellcolor[HTML]{FFFF00}Count}                                                                                           & 55                                               & 55                                                       & 55                                                      & 55                                                               & 55                                                                           & 55                                                                               \\ \hline
         \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{B6D7A8}MEAN                                                 & 29.182                                           & 61.97090909                                              & 80.89090909                                             & 7.310                                                            & 6.577                                                                        & 103.751                                                                          \\ \hhline{~|*{7}{-}}
         \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{B6D7A8}median                                               & 21.000                                           & 60                                                       & 83                                                      & 7.342                                                            & 6.202                                                                        & 86.000                                                                           \\ \hhline{~|*{7}{-}}
@@ -234,8 +469,7 @@
         \multicolumn{1}{|c|}{\multirow{-8}{*}{Outliers}}               & SD after removing outliers based on IQR. If no outlier, type NA              & NA                                               & 10.63094107                                              & 12.4173                                                 & 1.0355                                                           & 2.4782                                                                       & 61.58689353                                                                      \\ \hline
         \end{tabular}%
     \end{adjustbox}
-\end{table}\clearpage\newpage
-\section*{Statistics}
+\end{table}\\
 \subsection*{Goodness of Fit test}
 \begin{enumerate}
     \item \textbf{Data set : Average screen duration}\\*[10pt]
@@ -306,4 +540,59 @@
         Rejection regions : \(\chi^2 \geq \chi^2_{0.05, 6}=12.592\)\\*[5pt]
         Rejection decision : Don't need to reject null hypothesis\\*[5pt]
         Conclusion : Screen duration is normally distributed with $\mu=103.7506$ and $\sigma=74.7360$\\*[5pt]
+\end{enumerate}
+\subsection*{Hypothesis Test}
+\begin{enumerate}
+    \item \textbf{Data set : Average screen duration}\\*[10pt]
+        Test hypothesis claims that \textit{average screen duration} is greater than 7 Hrs.\\
+        Collect data from 55 people. Sample mean & sample standard deviation : 6.5771 \& 2.8195 Hrs respectively.\\*[5pt]
+        Case of Hypothesis test : Large sample size\\*[5pt]
+        Upper-tailed, lower-tailed or two-tailed test : upper-tailed\\*[5pt]
+        \textbf{7 steps test}
+        \begin{enumerate}[label=1.\arabic*]
+            \item Parameter : \(\mu\)
+            \item \(\mu=\) average screen duration
+            \item \begin{equation}
+                \begin{split}
+                    \mu &: \textrm{average screen duration}\\
+                    \mu_0 &: 7\\
+                    H_0 &: \mu = 7
+                \end{split}
+            \end{equation}
+            \item \begin{equation}
+                H_a : \mu > 7
+            \end{equation}
+            \item \begin{equation}
+                \begin{split}
+                    z &= \dfrac{X-\mu_0}{\frac{S}{\sqrt{n}}}\\
+                    &= \dfrac{6.5771-7}{\frac{2.8195}{\sqrt{55}}}\\
+                    &= -1.11236
+                \end{split}
+            \end{equation}
+            \item \begin{equation*}
+                \alpha &: 0.05
+            \end{equation*}
+            \begin{equation}
+                \begin{align}
+                    1-\alpha &= 1-0.05 &&= 0.95\\
+                    z_a &= z_{0.05} &&= 1.6449\\
+                \end{align}
+            \end{equation}
+            \begin{equation*}
+                z &\geq 1.6449
+            \end{equation*}
+            \item Rejection decision\\*[10pt]
+                Test static does not fall inside the rejection region. Null hypothesis is not rejected.\\*[5pt]
+            \item Conclusion\\*[10pt]
+            We do not reject the null hypothesis. Average screen duration is 7 Hrs.
+        \end{enumerate}
+    \item \textbf{Data set : Average notification}\\*[10pt]
+        Test hypothesis claims that \textit{average notification} is greater than 100 times.\\
+        Collect data from 55 people. Sample mean & sample standard deviation : 103.7506 \& 74.7360 times respectively.\\*[5pt]
+        Case of Hypothesis test : Large sample size\\*[5pt]
+        Upper-tailed, lower-tailed or two-tailed test : upper-tailed\\*[5pt]
+        \textbf{7 steps test}
+        \begin{enumerate}
+            \item 
+        \end{enumerate}
 \end{enumerate}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  20 APR 2025 22:57
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  21 APR 2025 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,7 +817,7 @@ Type  H <return>  for immediate help.
                                                   
 l.140 \ProcessOptions\relax
                            
-? return
+? retunr
 OK, entering \nonstopmode...
 ) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
 
@@ -1700,12 +1700,86 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 \subsection
-                 *{Screen time vs Sleeping time}
+l.118 \begin
+            {figure}[hb!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+PGFPlots: reading {"6 graph.csv"}
+NOTE: coordinate (1Y1.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+PGFPlots: reading {"6 graph.csv"}
 
 
 [3
@@ -1719,7 +1793,193 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 \subsection
+l.157 \subsection
+                 *{Screen time vs Sleeping time}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \begin
+            {figure}[hb!]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+PGFPlots: reading {"6 graph.csv"}
+NOTE: coordinate (1Y1.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+PGFPlots: reading {"6 graph.csv"}
+NOTE: coordinate (1Y1.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \subsection
                  *{Screen time vs Notification}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1732,12 +1992,86 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \subsection
-                 *{Screen time vs Heart rate}
+l.261 \begin
+            {figure}[hb!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+PGFPlots: reading {"6 graph.csv"}
+NOTE: coordinate (1Y1.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+PGFPlots: reading {"6 graph.csv"}
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1745,59 +2079,293 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 \subsection
-                 *{Screen time vs Weight}
+l.336 \begin
+            {figure}[hb!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+PGFPlots: reading {"6 graph.csv"}
+NOTE: coordinate (1Y1.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+PGFPlots: reading {"6 graph.csv"}
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 \begin
+            {figure}[hb!]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+PGFPlots: reading {"6 graph.csv"}
+NOTE: coordinate (1Y1.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.4e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.5e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.6e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.7e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.8e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.9e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.0e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.1e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.2e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.3e1],) has been dropped because of a coordinate filter. (
+see also unbounded coords=jump). 
+PGFPlots: reading {"6 graph.csv"}
 
 
 [4]
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 241--258
+
+[6]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 \subsection
+                 *{Goodness of Fit test}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--275
+Underfull \hbox (badness 10000) in paragraph at lines 492--509
 
  []
 
 
 
-[6
+[7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 275--292
+Underfull \hbox (badness 10000) in paragraph at lines 509--526
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--309
+Underfull \hbox (badness 10000) in paragraph at lines 526--543
 
  []
 
 
 
-[7])
+[8]
+! Misplaced alignment tab character &.
+l.548 ...ollect data from 55 people. Sample mean &
+                                                   sample standard deviation...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-[8] (chapter/conclusion.tex)
+! Misplaced alignment tab character &.
+l.573                 \alpha &
+                              : 0.05
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-[9
 
 
-]
+[9]
 
-[10] (chapter/appendix.tex)
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.579                 \end{align}
+                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+l.582                 z &
+                         \geq 1.6449
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
+
+ []
+
+)
+
+[10] (chapter/conclusion.tex)
 
 [11
 
 
 ]
 
-[12] (6_report.aux)
+[12] (chapter/appendix.tex)
+
+[13
+
+
+]
+
+[14] (6_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1809,12 +2377,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 41940 strings out of 408644
- 1040928 string characters out of 5744893
- 1869247 words of memory out of 5000000
- 64347 multiletter control sequences out of 15000+600000
- 596534 words of font info for 67 fonts, out of 8000000 for 9000
+ 42600 strings out of 408644
+ 1058338 string characters out of 5744893
+ 2113667 words of memory out of 5000000
+ 65001 multiletter control sequences out of 15000+600000
+ 606776 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,18n,117p,1211b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,18n,117p,1211b,2352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 6_report.pdf (12 pages).
+Output written on 6_report.pdf (14 pages).
