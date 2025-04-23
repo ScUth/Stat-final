@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  23 APR 2025 17:00
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  23 APR 2025 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,12 +817,6 @@ Type  H <return>  for immediate help.
                                                   
 l.140 \ProcessOptions\relax
                            
-? พำะีพื
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
 ? return
 OK, entering \nonstopmode...
 ) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
@@ -2518,26 +2512,7 @@ or  <return>  to continue without it.
 
 
 [7]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.487 \subsection
-                 *{Goodness of Fit test}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--506
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 506--523
+Underfull \hbox (badness 10000) in paragraph at lines 490--507
 
  []
 
@@ -2546,36 +2521,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 506--523
 [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 523--540
+Underfull \hbox (badness 10000) in paragraph at lines 507--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--557
+Underfull \hbox (badness 10000) in paragraph at lines 524--541
 
  []
 
 
 
 [9]
-! Misplaced alignment tab character &.
-l.562 ...ollect data from 55 people. Sample mean &
-                                                   sample standard deviation...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 567--569
+Underfull \hbox (badness 10000) in paragraph at lines 541--558
 
  []
 
 ! Misplaced alignment tab character &.
-l.588                 \alpha &
-                              : 0.05
+l.563 ...ollect data from 55 people. Sample mean &
+                                                   sample standard deviation...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2586,6 +2550,20 @@ might try typing `S' now just to see what is salvageable.
 
 
 [10]
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
+
+ []
+
+! Misplaced alignment tab character &.
+l.589                 \alpha &
+                              : 0.05
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2594,13 +2572,13 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594                 \end{align}
+l.595                 \end{align}
                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Misplaced alignment tab character &.
-l.597                 z &
+l.598                 z &
                          \geq 1.6449
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2610,12 +2588,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
+Underfull \hbox (badness 10000) in paragraph at lines 600--602
 
  []
 
 ! Misplaced alignment tab character &.
-l.606 ...ollect data from 55 people. Sample mean &
+l.607 ...ollect data from 55 people. Sample mean &
                                                    sample standard deviation...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2625,12 +2603,15 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--613
+Underfull \hbox (badness 10000) in paragraph at lines 612--614
 
  []
 
+
+
+[11]
 ! Misplaced alignment tab character &.
-l.628                     z &
+l.629                     z &
                              = \dfrac{\overline{X}-\mu_0}{\frac{S}{\sqrt{n}}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2640,7 +2621,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.632                 \alpha &
+l.633                 \alpha &
                               : 0.01
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2657,13 +2638,13 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.638                 \end{align}
+l.639                 \end{align}
                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Misplaced alignment tab character &.
-l.641                 z &
+l.642                 z &
                          \geq 2.3263
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2673,13 +2654,11 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--646
 
  []
 
 )
-
-[11]
 
 [12] (chapter/conclusion.tex)
 
