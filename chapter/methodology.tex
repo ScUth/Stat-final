@@ -127,7 +127,7 @@
                 ymin = 0,
                 xmin = 2, xmax = 17,
                 xtick distance = 1,
-                ytick distance = 0.05,
+                % ytick distance = 0.05,
                 title = \(\widehat{P}(X)\),
                 % nodes near coords style={font=\tiny}
             ]
@@ -153,6 +153,7 @@
         \end{axis}
     \end{tikzpicture}
 \end{figure}
+\lipsum[10]
 \\
 \subsection*{Screen time vs Sleeping time}
 \begin{table}[ht]
@@ -190,7 +191,7 @@
                 ymin = 0,
                 xmin = 2, xmax = 17,
                 xtick distance = 1,
-                ytick distance = 0.05,
+                % ytick distance = 0.05,
                 title = \(\widehat{P}(X)\),
                 % nodes near coords style={font=\tiny}
             ]
@@ -215,7 +216,9 @@
             \addplot+[ybar interval] table [y=Py_SS, col sep=comma, x expr=\coordindex+4] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}\\
+\end{figure}
+\lipsum[11]
+\\
 \subsection*{Screen time vs Notification}
 \begin{table}[ht]
     \resizebox{\textwidth}{!}{%
@@ -270,32 +273,36 @@
                 ymin = 0,
                 xmin = 2, xmax = 17,
                 xtick distance = 1,
-                ytick distance = 0.05,
+                % ytick distance = 0.05,
                 title = \(\widehat{P}(X)\),
                 % nodes near coords style={font=\tiny}
             ]
             \addplot+[ybar interval] table [y=Px_SA, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-    \begin{tikzpicture}[scale=0.35]
+    \begin{tikzpicture}[scale=0.42]
         \begin{axis}
             [
-                xlabel = Age,
+                xlabel = Notification,
                 ylabel = \(\widehat{P}(Y)\),
-                width = 1.3\textwidth,
+                width = 1.1\textwidth,
                 grid,
                 ybar,
                 ymin = 0,
-                xmin = 6, xmax = 58,
-                xtick distance =2,
-                ytick distance = 0.025,
+                xmin = 0, xmax = 15,
+                xtick = data,
+                xticklabels = {0, 25, 50, 75, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375},
+                % xtick distance = 25,
+                % ytick distance = 0.025,
                 title = \(\widehat{P}(Y)\),
                 % nodes near coords style={font=\tiny}
             ]
-            \addplot+[ybar] table [y=Py_SA, col sep=comma, x expr=\coordindex+7] {6 graph.csv};
+            \addplot+[ybar interval] table [y=Py_SN, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}
+\end{figure}\\
+\lipsum[12]
+\newpage
 \subsection*{Screen time vs Heart rate}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
@@ -345,32 +352,36 @@
                 ymin = 0,
                 xmin = 2, xmax = 17,
                 xtick distance = 1,
-                ytick distance = 0.05,
+                % ytick distance = 0.05,
                 title = \(\widehat{P}(X)\),
                 % nodes near coords style={font=\tiny}
             ]
             \addplot+[ybar interval] table [y=Px_SA, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-    \begin{tikzpicture}[scale=0.35]
+    \begin{tikzpicture}[scale=0.46]
         \begin{axis}
             [
-                xlabel = Age,
+                xlabel = Heart rate,
                 ylabel = \(\widehat{P}(Y)\),
-                width = 1.3\textwidth,
+                width = \textwidth,
                 grid,
                 ybar,
                 ymin = 0,
-                xmin = 6, xmax = 58,
-                xtick distance =2,
-                ytick distance = 0.025,
+                xmin = 0, xmax = 13,
+                xtick = data,
+                xticklabels = {50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115},
+                % xtick distance =2,
+                % ytick distance = 0.025,
                 title = \(\widehat{P}(Y)\),
                 % nodes near coords style={font=\tiny}
             ]
-            \addplot+[ybar] table [y=Py_SA, col sep=comma, x expr=\coordindex+7] {6 graph.csv};
+            \addplot+[ybar interval] table [y=Py_SH, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}
+\end{figure}\\
+\lipsum[13]
+\newpage
 \subsection*{Screen time vs Weight}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
@@ -411,32 +422,35 @@
                 ymin = 0,
                 xmin = 2, xmax = 17,
                 xtick distance = 1,
-                ytick distance = 0.05,
+                % ytick distance = 0.05,
                 title = \(\widehat{P}(X)\),
                 % nodes near coords style={font=\tiny}
             ]
             \addplot+[ybar interval] table [y=Px_SA, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-    \begin{tikzpicture}[scale=0.35]
+    \begin{tikzpicture}[scale=0.51]
         \begin{axis}
             [
-                xlabel = Age,
+                xlabel = Weight,
                 ylabel = \(\widehat{P}(Y)\),
-                width = 1.3\textwidth,
+                width = 0.9\textwidth,
                 grid,
                 ybar,
                 ymin = 0,
-                xmin = 6, xmax = 58,
-                xtick distance =2,
-                ytick distance = 0.025,
+                xmin = 0, xmax = 9,
+                % xtick distance =2,
+                xtick = data,
+                xticklabels = {25, 35, 45, 55, 65, 75, 85, 95, 105, 115},
+                % ytick distance = 0.025,
                 title = \(\widehat{P}(Y)\),
                 % nodes near coords style={font=\tiny}
             ]
-            \addplot+[ybar] table [y=Py_SA, col sep=comma, x expr=\coordindex+7] {6 graph.csv};
+            \addplot+[ybar interval] table [y=Py_SW, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}
+\end{figure}\\
+\lipsum[14]
 \clearpage\newpage
 \section*{Statistics}
 \subsection*{Descriptive Statistics}
@@ -550,26 +564,27 @@
         Upper-tailed, lower-tailed or two-tailed test : upper-tailed\\*[5pt]
         \textbf{7 steps test}
         \begin{enumerate}[label=1.\arabic*]
-            \item Parameter : \(\mu\)
-            \item \(\mu=\) average screen duration
-            \item \begin{equation}
+            \item Choose parameter of interest (\(\mu\))\\*[10pt]
+                Parameter : \(\mu\)\\*[5pt]
+            \item Specify null value (\(\mu_0\)) and null hypothesis \((H_0)\)\\*[10pt]
+                \(\mu=\) average screen duration
+            \begin{equation}
                 \begin{split}
                     \mu &: \textrm{average screen duration}\\
                     \mu_0 &: 7\\
                     H_0 &: \mu = 7
                 \end{split}
             \end{equation}
-            \item \begin{equation}
+            \item State alternative hypothesis \((H_a)\)
+            \begin{equation}
                 H_a : \mu > 7
             \end{equation}
-            \item \begin{equation}
-                \begin{split}
-                    z &= \dfrac{X-\mu_0}{\frac{S}{\sqrt{n}}}\\
-                    &= \dfrac{6.5771-7}{\frac{2.8195}{\sqrt{55}}}\\
-                    &= -1.11236
-                \end{split}
+            \item Compute test statistic \((z)\)
+            \begin{equation}
+                    z = \dfrac{\overline{X}-\mu_0}{\frac{S}{\sqrt{n}}} = \dfrac{6.5771-7}{\frac{2.8195}{\sqrt{55}}} \Rightarrow -1.11236
             \end{equation}
-            \item \begin{equation*}
+            \item Indicate significance level \((\alpha)\) and find rejection region \((z_a)\)
+            \begin{equation*}
                 \alpha &: 0.05
             \end{equation*}
             \begin{equation}
@@ -581,9 +596,9 @@
             \begin{equation*}
                 z &\geq 1.6449
             \end{equation*}
-            \item Rejection decision\\*[10pt]
+            \item Determine whether we reject null hypothesis or not\\*[10pt]
                 Test static does not fall inside the rejection region. Null hypothesis is not rejected.\\*[5pt]
-            \item Conclusion\\*[10pt]
+            \item Conclude the problem\\*[10pt]
             We do not reject the null hypothesis. Average screen duration is 7 Hrs.
         \end{enumerate}
     \item \textbf{Data set : Average notification}\\*[10pt]
@@ -592,7 +607,42 @@
         Case of Hypothesis test : Large sample size\\*[5pt]
         Upper-tailed, lower-tailed or two-tailed test : upper-tailed\\*[5pt]
         \textbf{7 steps test}
-        \begin{enumerate}
-            \item 
+        \begin{enumerate}[label=2.\arabic*]
+            \item Choose parameter of interest (\(\mu\))\\*[10pt]
+                Parameter : \(\mu\)\\*[5pt]
+            \item Specify null value (\(\mu_0\)) and null hypothesis \((H_0)\)\\*[10pt]
+                \(\mu=\) average notification
+            \begin{equation}
+                \begin{split}
+                    \mu &: \textrm{average notification}\\
+                    \mu_0 &: 100\\
+                    H_0 &: \mu = 100
+                \end{split}
+            \end{equation}
+            \item State alternative hypothesis \((H_a)\)
+            \begin{equation}
+                H_a : \mu > 100
+            \end{equation}
+            \item Compute test statistic \((z)\)
+            \begin{equation}
+                    z &= \dfrac{\overline{X}-\mu_0}{\frac{S}{\sqrt{n}}} = \dfrac{103.7506-100}{\frac{2.8195}{\sqrt{55}}} \Rightarrow 0.372179
+            \end{equation}
+            \item Indicate significance level \((\alpha)\) and find rejection region \((z_a)\)
+            \begin{equation*}
+                \alpha &: 0.01
+            \end{equation*}
+            \begin{equation}
+                \begin{align}
+                    1-\alpha &= 1-0.05 &&= 0.99\\
+                    z_a &= z_{0.01} &&= 2.3263\\
+                \end{align}
+            \end{equation}
+            \begin{equation*}
+                z &\geq 2.3263
+            \end{equation*}
+            \item Determine whether we reject null hypothesis or not\\*[10pt]
+                Test static does not fall inside the rejection region. Null hypothesis is not rejected.\\*[5pt]
+            \item Conclude the problem\\*[10pt]
+            We do not reject the null hypothesis. Average notification is 100 times.
         \end{enumerate}
 \end{enumerate}
