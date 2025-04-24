@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  23 APR 2025 17:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  24 APR 2025 08:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1391,6 +1391,18 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 )) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 )
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box150
+\beforetitleunit=\skip121
+\aftertitleunit=\skip122
+\ttl@plus=\dimen362
+\ttl@minus=\dimen363
+\ttl@toksa=\toks53
+\titlewidth=\dimen364
+\titlewidthlast=\dimen365
+\titlewidthfirst=\dimen366
+)
 \symmatha=\mathgroup6
 
 
@@ -1401,7 +1413,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 }
+l.110 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1431,21 +1443,21 @@ File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip121
-\f@nch@offset@elh=\skip122
-\f@nch@offset@erh=\skip123
-\f@nch@offset@olh=\skip124
-\f@nch@offset@orh=\skip125
-\f@nch@offset@elf=\skip126
-\f@nch@offset@erf=\skip127
-\f@nch@offset@olf=\skip128
-\f@nch@offset@orf=\skip129
-\f@nch@height=\skip130
-\f@nch@footalignment=\skip131
-\f@nch@widthL=\skip132
-\f@nch@widthC=\skip133
-\f@nch@widthR=\skip134
-\@temptokenb=\toks53
+\f@nch@headwidth=\skip123
+\f@nch@offset@elh=\skip124
+\f@nch@offset@erh=\skip125
+\f@nch@offset@olh=\skip126
+\f@nch@offset@orh=\skip127
+\f@nch@offset@elf=\skip128
+\f@nch@offset@erf=\skip129
+\f@nch@offset@olf=\skip130
+\f@nch@offset@orf=\skip131
+\f@nch@height=\skip132
+\f@nch@footalignment=\skip133
+\f@nch@widthL=\skip134
+\f@nch@widthC=\skip135
+\f@nch@widthR=\skip136
+\@temptokenb=\toks54
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
@@ -1455,24 +1467,24 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen362
-\ESO@tempdimb=\dimen363
+\ESO@tempdima=\dimen367
+\ESO@tempdimb=\dimen368
 )
-\AM@pagewidth=\dimen364
-\AM@pageheight=\dimen365
-\AM@fboxrule=\dimen366
+\AM@pagewidth=\dimen369
+\AM@pageheight=\dimen370
+\AM@fboxrule=\dimen371
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
 File: ppxetex.def 2025/01/30 v0.6e Pdfpages driver for XeTeX (AM)
 )
 \pdfpages@includegraphics@status=\count428
-\AM@pagebox=\box150
-\AM@global@opts=\toks54
+\AM@pagebox=\box151
+\AM@global@opts=\toks55
 \AM@pagecnt=\count429
-\AM@toc@title=\toks55
-\AM@lof@heading=\toks56
+\AM@toc@title=\toks56
+\AM@lof@heading=\toks57
 \c@AM@survey=\count430
-\AM@templatesizebox=\box151
+\AM@templatesizebox=\box152
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
@@ -1482,7 +1494,7 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@qlevel=\count434
 \csq@maxlvl=\count435
 \csq@tshold=\count436
-\csq@ltx@everypar=\toks57
+\csq@ltx@everypar=\toks58
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -1500,26 +1512,26 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 Package csquotes Info: Allocating character ".
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip135
-\enit@outerparindent=\dimen367
-\enit@toks=\toks58
-\enit@inbox=\box152
+\labelindent=\skip137
+\enit@outerparindent=\dimen372
+\enit@toks=\toks59
+\enit@inbox=\box153
 \enit@count@id=\count437
 \enitdp@description=\count438
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count439
-\lst@gtempboxa=\box153
-\lst@token=\toks59
+\lst@gtempboxa=\box154
+\lst@token=\toks60
 \lst@length=\count440
-\lst@currlwidth=\dimen368
+\lst@currlwidth=\dimen373
 \lst@column=\count441
 \lst@pos=\count442
-\lst@lostspace=\dimen369
-\lst@width=\dimen370
+\lst@lostspace=\dimen374
+\lst@width=\dimen375
 \lst@newlines=\count443
 \lst@lineno=\count444
-\lst@maxwidth=\dimen371
+\lst@maxwidth=\dimen376
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
@@ -1528,7 +1540,7 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 \c@lstnumber=\count445
 \lst@skipnumbers=\count446
-\lst@framebox=\box154
+\lst@framebox=\box155
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
@@ -1545,22 +1557,22 @@ LaTeX Warning: Unused global option(s):
 (6_report.aux)
 \openout1 = `6_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1603,8 +1615,8 @@ Package caption Info: End \AtBeginDocument code.
 ty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
-\flrow@LT@lasthead=\box155
-\flrow@LT@prelastfoot=\box156
+\flrow@LT@lasthead=\box156
+\flrow@LT@prelastfoot=\box157
 \c@FBLTpage=\count447
 )
 Package pgfplots notification 'compat/show suggested version=true': document ha
@@ -1625,7 +1637,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-Package csquotes Info: Making character " active on input line 179.
+Package csquotes Info: Making character " active on input line 180.
 \c@lstlisting=\count448
 
 (chapter/summary.tex
@@ -1692,7 +1704,9 @@ Underfull \hbox (badness 5622) in paragraph at lines 23--24
 [2
 
 
-] (chapter/methodology.tex
+]
+
+[3] (chapter/methodology.tex
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1782,7 +1796,7 @@ see also unbounded coords=jump).
 PGFPlots: reading {"6 graph.csv"}
 
 
-[3
+[4
 
 
 ]
@@ -1970,7 +1984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
 
 
-[4]
+[5]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2145,7 +2159,7 @@ or  <return>  to continue without it.
 
 
 
-[5]
+[6]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2324,7 +2338,7 @@ or  <return>  to continue without it.
 
 
 
-[6]
+[7]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2511,34 +2525,39 @@ or  <return>  to continue without it.
 
 
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 490--507
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--508
 
  []
 
 
 
-[8
+[9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 507--524
+Underfull \hbox (badness 10000) in paragraph at lines 508--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--541
+Underfull \hbox (badness 10000) in paragraph at lines 525--542
 
  []
 
 
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 541--558
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 542--559
 
  []
 
 ! Misplaced alignment tab character &.
-l.563 ...ollect data from 55 people. Sample mean &
+l.564 ...ollect data from 55 people. Sample mean &
                                                    sample standard deviation...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2549,8 +2568,13 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 568--570
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 569--571
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--572
 
  []
 
@@ -2609,9 +2633,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 612--614
 
 
 
-[11]
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
+
+ []
+
 ! Misplaced alignment tab character &.
-l.629                     z &
+l.628                     z &
                              = \dfrac{\overline{X}-\mu_0}{\frac{S}{\sqrt{n}}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2621,7 +2649,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.633                 \alpha &
+l.632                 \alpha &
                               : 0.01
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2638,13 +2666,13 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.639                 \end{align}
+l.638                 \end{align}
                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Misplaced alignment tab character &.
-l.642                 z &
+l.641                 z &
                          \geq 2.3263
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2654,27 +2682,27 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--646
+Underfull \hbox (badness 10000) in paragraph at lines 643--645
 
  []
 
 )
 
-[12] (chapter/conclusion.tex)
+[13] (chapter/conclusion.tex)
 
-[13
-
-
-]
-
-[14] (chapter/appendix.tex)
-
-[15
+[14
 
 
 ]
 
-[16] (6_report.aux)
+[15] (chapter/appendix.tex)
+
+[16
+
+
+]
+
+[17] (6_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2686,12 +2714,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 42620 strings out of 408644
- 1058805 string characters out of 5744893
- 1925500 words of memory out of 5000000
- 65021 multiletter control sequences out of 15000+600000
+ 42908 strings out of 408644
+ 1062574 string characters out of 5744893
+ 1934021 words of memory out of 5000000
+ 65306 multiletter control sequences out of 15000+600000
  606776 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,18n,117p,1211b,2350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 6_report.pdf (16 pages).
+Output written on 6_report.pdf (17 pages).
