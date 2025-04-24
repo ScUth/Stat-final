@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  24 APR 2025 17:41
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  24 APR 2025 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2017,13 +2017,12 @@ see also unbounded coords=jump).
 NOTE: coordinate (1Y4.4e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--200
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
-
-
-[5]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2031,7 +2030,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 T
+l.237 T
        he individual probability from the table comes from dividing frequenc...
 
 Your command was ignored.
@@ -2159,15 +2158,23 @@ see also unbounded coords=jump).
 NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--269
-
- []
-
-
 
 [6]
-PGFPlots: reading {"6 graph.csv"}
 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315 T
+       he individual probability from the table comes from dividing frequenc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+PGFPlots: reading {"6 graph.csv"}
 NOTE: coordinate (1Y1.5e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 NOTE: coordinate (1Y1.6e1],) has been dropped because of a coordinate filter. (
@@ -2284,9 +2291,21 @@ see also unbounded coords=jump).
 NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--343
 
- []
+[7]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.384 T
+       he individual probability from the table comes from dividing frequenc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 PGFPlots: reading {"6 graph.csv"}
 NOTE: coordinate (1Y1.5e1],) has been dropped because of a coordinate filter. (
@@ -2413,38 +2432,39 @@ see also unbounded coords=jump).
 NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--408
+Underfull \hbox (badness 10000) in paragraph at lines 428--430
 
  []
 
 
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 443--460
+Underfull \hbox (badness 10000) in paragraph at lines 473--490
 
  []
 
 
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 460--477
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--494
+Underfull \hbox (badness 10000) in paragraph at lines 490--507
 
  []
 
 
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 494--511
+Underfull \hbox (badness 10000) in paragraph at lines 507--524
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--541
+
+ []
+
+
+
+[10]
 ! Misplaced alignment tab character &.
-l.516 ...ollect data from 55 people. Sample mean &
+l.546 ...ollect data from 55 people. Sample mean &
                                                    sample standard deviation...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2454,14 +2474,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 523--524
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
 ! Misplaced alignment tab character &.
-l.541                 \alpha &
+l.571                 \alpha &
                               : 0.05
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2478,39 +2496,14 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.547                 \end{align}
+l.577                 \end{align}
                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Misplaced alignment tab character &.
-l.550                 z &
+l.580                 z &
                          \geq 1.6449
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.559 ...ollect data from 55 people. Sample mean &
-                                                   sample standard deviation...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
-
- []
-
-! Misplaced alignment tab character &.
-l.580                     z &
-                             = \dfrac{\overline{X}-\mu_0}{\frac{S}{\sqrt{n}}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2522,7 +2515,32 @@ might try typing `S' now just to see what is salvageable.
 
 [11]
 ! Misplaced alignment tab character &.
-l.584                 \alpha &
+l.589 ...ollect data from 55 people. Sample mean &
+                                                   sample standard deviation...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
+
+ []
+
+! Misplaced alignment tab character &.
+l.610                     z &
+                             = \dfrac{\overline{X}-\mu_0}{\frac{S}{\sqrt{n}}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.614                 \alpha &
                               : 0.01
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2539,13 +2557,13 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.590                 \end{align}
+l.620                 \end{align}
                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Misplaced alignment tab character &.
-l.593                 z &
+l.623                 z &
                          \geq 2.3263
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2610,10 +2628,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 42954 strings out of 408644
- 1063122 string characters out of 5744893
- 1857820 words of memory out of 5000000
- 65340 multiletter control sequences out of 15000+600000
+ 42955 strings out of 408644
+ 1063171 string characters out of 5744893
+ 1853059 words of memory out of 5000000
+ 65341 multiletter control sequences out of 15000+600000
  622414 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,18n,117p,1075b,2322s stack positions out of 10000i,1000n,20000p,200000b,200000s

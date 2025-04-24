@@ -133,8 +133,12 @@ The individual probability from the table comes from dividing frequency with the
             \addplot+[ybar] table [y=Py_SA, col sep=comma, x expr=\coordindex+18] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}
-The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 30.1087, n = 46, s_x = 2.4862, s_y = 13.2031\). Therefore, \(S_{X, Y} = -10.9625\) and \(r = -0.3340\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.
+\end{figure}\\
+The correlation coefficient is computed by using the formula 
+\begin{displaymath}
+    \widehat{\rho}_{X, Y} = \dfrac{\widehat{S}_{X, Y}}{s_Xs_Y} \enskip \& \enskip \widehat{S}_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)
+\end{displaymath}
+In this case, \(\overline{X} = 6.271\), \(\overline{Y} = 30.1087, n = 46\), \(s_x = 2.4862\), \(s_y = 13.2031\). Therefore, \(S_{X, Y} = -10.9625\) and \(r = -0.3340\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.
 \subsection*{Screen time vs Sleeping time}
 \begin{table}[hb]
     \begin{adjustbox}{width = \textwidth, center}
@@ -157,14 +161,15 @@ The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, 
         \end{tabular}
     \end{adjustbox}
 \end{table}
-The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 7.3261 which is calculated by summing all of $P[Y]$.\\
-\begin{figure}[ht]
-    \begin{tikzpicture}[scale=0.44]
+The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 7.3261 which is calculated by summing all of $P[Y]$.
+\begin{figure}[h!]
+    \begin{tikzpicture}[scale=0.5]
         \begin{axis}
             [
                 xlabel = screen duration (Hrs),
                 ylabel = \(\widehat{P}(X)\),
-                width = 0.9\textwidth,
+                width = 14cm,
+                height = 10cm,
                 grid,
                 ybar,
                 ymin = 0,
@@ -177,26 +182,31 @@ The individual probability from the table comes from dividing frequency with the
             \addplot+[ybar interval] table [y=Px_SS, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-    \begin{tikzpicture}[scale=0.69]
+    \begin{tikzpicture}[scale=0.5]
         \begin{axis}
             [
                 xlabel = Sleeping time,
                 ylabel = \(\widehat{P}(Y)\),
-                width = 0.6\textwidth,
+                width = 14cm,
+                height = 10cm,
                 grid,
                 ybar,
                 ymin = 0,
                 xmin = 4, xmax = 10,
                 xtick distance =1,
-                ytick distance = 0.1,
+                % ytick distance = 0.1,
                 title = \(\widehat{P}(Y)\),
                 % nodes near coords style={font=\tiny}
             ]
             \addplot+[ybar interval] table [y=Py_SS, col sep=comma, x expr=\coordindex+4] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}
-The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 93.7671, n = 46, s_x = 2.4862, s_y = 56.1233\). Therefore, \(S_{X, Y} = 24.6359\) and \(r = 0.1766\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
+\end{figure}\newpage
+The correlation coefficient is computed by using the formula 
+\begin{displaymath}
+    \widehat{\rho}_{X, Y} = \dfrac{\widehat{S}_{X, Y}}{s_Xs_Y} \enskip \& \enskip \widehat{S}_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)
+\end{displaymath}
+In this case, \(\overline{X} = 6.271, \overline{Y} = 93.7671, n = 46, s_x = 2.4862, s_y = 56.1233\). Therefore, \(S_{X, Y} = 24.6359\) and \(r = 0.1766\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
 \subsection*{Screen time vs Notification}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
@@ -224,7 +234,7 @@ The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, 
             \end{tabular}
     \end{adjustbox}
 \end{table}\\
-The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 81.5217 which is calculated by summing all of $P[Y]$.\\
+The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 81.5217 which is calculated by summing all of $P[Y]$.
 \begin{figure}[ht!]
     \begin{tikzpicture}[scale=0.51]
         \begin{axis}
@@ -264,10 +274,14 @@ The individual probability from the table comes from dividing frequency with the
             \addplot+[ybar interval] table [y=Py_SN, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}
-The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 80.7174, n = 46, s_x = 2.4862, s_y = 10.8805\). Therefore, \(S_{X, Y} = -1.3246\) and \(r = -0.0490\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
+\end{figure}\\
+The correlation coefficient is computed by using the formula 
+\begin{displaymath}
+    \widehat{\rho}_{X, Y} = \dfrac{\widehat{S}_{X, Y}}{s_Xs_Y} \enskip \& \enskip \widehat{S}_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)
+\end{displaymath}
+In this case, \(\overline{X} = 6.271, \overline{Y} = 80.7174, n = 46, s_x = 2.4862, s_y = 10.8805\). Therefore, \(S_{X, Y} = -1.3246\) and \(r = -0.0490\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\newpage
 \subsection*{Screen time vs Heart rate}
-\begin{table}[ht]
+\begin{table}[hb]
     \begin{adjustbox}{width = \textwidth, center}
         \begin{tabular}{|cc|r|r|r|r|r|r|r|r|r|r|r|r|r|r|r|}
             \hline
@@ -297,7 +311,7 @@ The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, 
             \multicolumn{2}{|c|}{\cellcolor[HTML]{FCE5CD}$\mathrm{mid}\cdot\widehat{P}(X)$} & \cellcolor[HTML]{FCE5CD}0.163                  & \cellcolor[HTML]{FCE5CD}0.5326                 & \cellcolor[HTML]{FCE5CD}0.587                  & \cellcolor[HTML]{FCE5CD}0.9565                 & \cellcolor[HTML]{FCE5CD}0.5652                 & \cellcolor[HTML]{FCE5CD}0.9783                 & \cellcolor[HTML]{FCE5CD}1.1087                 & \cellcolor[HTML]{FCE5CD}0.8261                  & \cellcolor[HTML]{FCE5CD}0.2283                  & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0.2935                  & \multicolumn{1}{l|}{}                                                           & \multicolumn{1}{l|}{\cellcolor[HTML]{D9D9D9}$\widehat{E}(Y)$}           & \cellcolor[HTML]{D9D9D9}81.5217                                                                  \\ \hline
         \end{tabular}
     \end{adjustbox}
-\end{table}\newpage
+\end{table}\\
 The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 61.3043 which is calculated by summing all of $P[Y]$.\\
 \begin{figure}[ht!]
     \begin{tikzpicture}[scale=0.51]
@@ -338,8 +352,12 @@ The individual probability from the table comes from dividing frequency with the
             \addplot+[ybar interval] table [y=Py_SH, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}
-The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 80.7174, n = 46, s_x = 2.4862, s_y = 10.8805\). Therefore, \(S_{X, Y} = -1.3246\) and \(r = -0.0490\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
+\end{figure}\\
+The correlation coefficient is computed by using the formula
+\begin{displaymath}
+    \widehat{\rho}_{X, Y} = \dfrac{\widehat{S}_{X, Y}}{s_Xs_Y} \enskip \& \enskip \widehat{S}_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)
+\end{displaymath}
+In this case, \(\overline{X} = 6.271, \overline{Y} = 80.7174, n = 46, s_x = 2.4862, s_y = 10.8805\). Therefore, \(S_{X, Y} = -1.3246\) and \(r = -0.0490\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\newpage
 \subsection*{Screen time vs Weight}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
@@ -362,7 +380,7 @@ The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, 
             \multicolumn{2}{|c|}{\cellcolor[HTML]{FCE5CD}$\mathrm{mid}\cdot\widehat{P}(X)$} & \cellcolor[HTML]{FCE5CD}0.163                  & \cellcolor[HTML]{FCE5CD}0.5326                 & \cellcolor[HTML]{FCE5CD}0.587                  & \cellcolor[HTML]{FCE5CD}0.9565                 & \cellcolor[HTML]{FCE5CD}0.5652                 & \cellcolor[HTML]{FCE5CD}0.9783                 & \cellcolor[HTML]{FCE5CD}1.1087                 & \cellcolor[HTML]{FCE5CD}0.8261                  & \cellcolor[HTML]{FCE5CD}0.2283                  & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0.2935                  & \multicolumn{1}{l|}{}                                                           & \multicolumn{1}{c|}{\cellcolor[HTML]{C9DAF8}$\widehat{E}(Y)$}           & \cellcolor[HTML]{C9DAF8}61.3043                                                                  \\ \hline
         \end{tabular}
     \end{adjustbox}
-\end{table}
+\end{table}\\
 The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 61.3043 which is calculated by summing all of $P[Y]$.\\
 \begin{figure}[ht!]
     \begin{tikzpicture}[scale=0.51]
@@ -403,38 +421,50 @@ The individual probability from the table comes from dividing frequency with the
             \addplot+[ybar interval] table [y=Py_SW, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}
-The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 61.0587, n = 46, s_x = 2.4862, s_y = 10.3099\). Therefore, \(S_{X, Y} = -0.3518\) and \(r = -0.0137\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
+\end{figure}\\
+The correlation coefficient is computed by using the formula
+\begin{displaymath}
+    \widehat{\rho}_{X, Y} = \dfrac{\widehat{S}_{X, Y}}{s_Xs_Y} \enskip \& \enskip \widehat{S}_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)
+\end{displaymath}
+In this case, \(\overline{X} = 6.271, \overline{Y} = 61.0587, n = 46, s_x = 2.4862, s_y = 10.3099\). Therefore, \(S_{X, Y} = -0.3518\) and \(r = -0.0137\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
 \section*{Statistics}
 \subsection*{Descriptive Statistics}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
-        \begin{tabular}{|cl|r|r|r|r|r|r|}
-        \hline
-        \multicolumn{2}{|l|}{}                                                                                                                        & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Age} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Weight (kg)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Heart Rate} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Sleeping time (Hrs)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Average daily screen time (Hrs)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFE599}Average daily notification received} \\ \hline
-        \multicolumn{2}{|c|}{\cellcolor[HTML]{FFFF00}Count}                                                                                           & 55                                               & 55                                                       & 55                                                      & 55                                                               & 55                                                                           & 55                                                                               \\ \hline
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{B6D7A8}MEAN                                                 & 29.182                                           & 61.97090909                                              & 80.89090909                                             & 7.310                                                            & 6.577                                                                        & 103.751                                                                          \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{B6D7A8}median                                               & 21.000                                           & 60                                                       & 83                                                      & 7.342                                                            & 6.202                                                                        & 86.000                                                                           \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{\multirow{-3}{*}{Measure of Centrality}}  & \cellcolor[HTML]{B6D7A8}mode                                                 & 19                                               & 62.2                                                     & 87                                                      & 7.5                                                              & 6.202380952                                                                  & 86                                                                               \\ \hline
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{CFE2F3}MIN                                                  & 7.000                                            & 25.7                                                     & 51                                                      & 4.500                                                            & 2.236                                                                        & 6.429                                                                            \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{CFE2F3}MAX                                                  & 57.000                                           & 111.1                                                    & 111                                                     & 10.533                                                           & 16.671                                                                       & 357.000                                                                          \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{CFE2F3}range                                                & 50.000                                           & 85.400                                                   & 60.000                                                  & 6.033                                                            & 14.436                                                                       & 350.571                                                                          \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{CFE2F3}variance                                             & 175.4478                                         & 194.3140                                                 & 168.4323                                                & 1.4176                                                           & 7.9495                                                                       & 5585.474088                                                                      \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{CFE2F3}SD                                                   & 13.2457                                          & 13.9397                                                  & 12.9781                                                 & 1.1906                                                           & 2.8195                                                                       & 74.7360                                                                          \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{CFE2F3}cv                                                   & 0.4539                                           & 0.2249                                                   & 0.1604                                                  & 0.1629                                                           & 0.4287                                                                       & 0.7203                                                                           \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{CFE2F3}MAD                                                  & 11.7752                                          & 9.9298                                                   & 9.9451                                                  & 0.8687                                                           & 2.2193                                                                       & 56.00727273                                                                      \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & quartile1 (Q1)                                                               & 19                                               & 52.5                                                     & 73                                                      & 6.5                                                              & 4.569047619                                                                  & 49.14285714                                                                      \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & quartile3 (Q3)                                                               & 43                                               & 67                                                       & 88                                                      & 8                                                                & 8.316666667                                                                  & 146.7142857                                                                      \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{\multirow{-10}{*}{Measure of Dispersion}} & \cellcolor[HTML]{CFE2F3}IQR                                                  & 24                                               & 14.5                                                     & 15                                                      & 1.5                                                              & 3.747619048                                                                  & 97.57142857                                                                      \\ \hline
-        \multicolumn{1}{|c|}{}                                         & Q1-1.5IQR                                                                    & -17                                              & 30.75                                                    & 50.5                                                    & 4.25                                                             & -1.052380952                                                                 & -97.21428571                                                                     \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & Q3+1.5IQR                                                                    & 79                                               & 88.75                                                    & 110.5                                                   & 10.25                                                            & 13.93809524                                                                  & 293.0714286                                                                      \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{D9D2E9}Outliers (based on IQR)  If no outlier, answer None. & None                                             & 25.7, 93, 111.1                                          & 111                                                     & 10.417, 10.533                                                   & 16.671                                                                       & 294.857, 357.000                                                                 \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & MEAN-3SD                                                                     & -10.5552                                         & 20.1519                                                  & 41.9565                                                 & 3.7379                                                           & -1.8814                                                                      & -120.4574                                                                        \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & MEAN+3SD                                                                     & 68.9188                                          & 103.7899                                                 & 119.8254                                                & 10.8818                                                          & 15.0355                                                                      & 327.9587                                                                         \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & \cellcolor[HTML]{D9D2E9}Outliers (based on SD)  If no outlier, answer None.  & None                                             & 111.1                                                    & None                                                    & None                                                             & 16.671                                                                       & 357.000                                                                          \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{}                                         & Mean after removing outliers based on IQR. If no outlier, type NA            & NA                                               & 61.12692308                                              & 80.3333                                                 & 7.1904                                                           & 6.3901                                                                       & 95.367                                                                           \\ \hhline{~|*{7}{-}}
-        \multicolumn{1}{|c|}{\multirow{-8}{*}{Outliers}}               & SD after removing outliers based on IQR. If no outlier, type NA              & NA                                               & 10.63094107                                              & 12.4173                                                 & 1.0355                                                           & 2.4782                                                                       & 61.58689353                                                                      \\ \hline
-        \end{tabular}%
+        \begin{tabular}{|c|rrrrrr|}
+            \hline
+            \multicolumn{1}{|l|}{}                                                       & \multicolumn{1}{c|}{\cellcolor[HTML]{FFE599}Age}                & \multicolumn{1}{c|}{\cellcolor[HTML]{FFE599}Average daily screen time (Hrs)} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFE599}Average daily notification received} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFE599}Weight (Kg)} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFE599}Heart Rate} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFE599}Sleeping time (Hrs)} \\ \hline
+            \cellcolor[HTML]{FFFF00}Count                                                & \multicolumn{1}{r|}{55}                                         & \multicolumn{1}{r|}{55}                                                      & \multicolumn{1}{r|}{55}                                                          & \multicolumn{1}{r|}{55}                                  & \multicolumn{1}{r|}{55}                                 & 55                                                               \\ \hline
+            \cellcolor[HTML]{B6D7A8}MEAN                                                 & \multicolumn{1}{r|}{29.1818}                                    & \multicolumn{1}{r|}{6.5771}                                                  & \multicolumn{1}{r|}{103.7506}                                                    & \multicolumn{1}{r|}{61.9709}                             & \multicolumn{1}{r|}{80.8909}                            & 7.3098                                                           \\ \hline
+            \cellcolor[HTML]{B6D7A8}median                                               & \multicolumn{1}{r|}{21}                                         & \multicolumn{1}{r|}{6.2024}                                                  & \multicolumn{1}{r|}{86}                                                          & \multicolumn{1}{r|}{60.000}                              & \multicolumn{1}{r|}{83}                                 & 7.34                                                             \\ \hline
+            \cellcolor[HTML]{B6D7A8}mode                                                 & \multicolumn{1}{r|}{19}                                         & \multicolumn{1}{r|}{6.2024}                                                  & \multicolumn{1}{r|}{86}                                                          & \multicolumn{1}{r|}{50.000}                              & \multicolumn{1}{r|}{87}                                 & 6.50                                                             \\ \hline
+            \cellcolor[HTML]{CFE2F3}MIN                                                  & \multicolumn{1}{r|}{7}                                          & \multicolumn{1}{r|}{2.2357}                                                  & \multicolumn{1}{r|}{6.4286}                                                      & \multicolumn{1}{r|}{25.70}                               & \multicolumn{1}{r|}{51}                                 & 4.50                                                             \\ \hline
+            \cellcolor[HTML]{CFE2F3}MAX                                                  & \multicolumn{1}{r|}{57}                                         & \multicolumn{1}{r|}{16.6714}                                                 & \multicolumn{1}{r|}{357}                                                         & \multicolumn{1}{r|}{111.1}                               & \multicolumn{1}{r|}{111}                                & 10.5333                                                          \\ \hline
+            \cellcolor[HTML]{CFE2F3}range                                                & \multicolumn{1}{r|}{50}                                         & \multicolumn{1}{r|}{14.4357}                                                 & \multicolumn{1}{r|}{350.5714}                                                    & \multicolumn{1}{r|}{85.4}                                & \multicolumn{1}{r|}{60}                                 & 6.0333                                                           \\ \hline
+            \cellcolor[HTML]{CFE2F3}variance                                             & \multicolumn{1}{r|}{175.4478}                                   & \multicolumn{1}{r|}{7.9495}                                                  & \multicolumn{1}{r|}{5585.4741}                                                   & \multicolumn{1}{r|}{194.314}                             & \multicolumn{1}{r|}{168.4323}                           & 1.4176                                                           \\ \hline
+            \cellcolor[HTML]{CFE2F3}SD                                                   & \multicolumn{1}{r|}{13.2457}                                    & \multicolumn{1}{r|}{2.8195}                                                  & \multicolumn{1}{r|}{74.736}                                                      & \multicolumn{1}{r|}{13.9397}                             & \multicolumn{1}{r|}{12.9781}                            & 1.1906                                                           \\ \hline
+            \cellcolor[HTML]{CFE2F3}cv                                                   & \multicolumn{1}{r|}{0.4539}                                     & \multicolumn{1}{r|}{0.4287}                                                  & \multicolumn{1}{r|}{0.7203}                                                      & \multicolumn{1}{r|}{0.2249}                              & \multicolumn{1}{r|}{0.1604}                             & 0.1629                                                           \\ \hline
+            \cellcolor[HTML]{CFE2F3}MAD                                                  & \multicolumn{1}{r|}{11.7752}                                    & \multicolumn{1}{r|}{2.2193}                                                  & \multicolumn{1}{r|}{56.0073}                                                     & \multicolumn{1}{r|}{9.9298}                              & \multicolumn{1}{r|}{9.9451}                             & 0.8687                                                           \\ \hline
+            quartile1 (Q1)                                                               & \multicolumn{1}{r|}{19}                                         & \multicolumn{1}{r|}{4.569}                                                   & \multicolumn{1}{r|}{49.1429}                                                     & \multicolumn{1}{r|}{52.5}                                & \multicolumn{1}{r|}{73}                                 & 6.5                                                              \\ \hline
+            quartile3 (Q3)                                                               & \multicolumn{1}{r|}{43}                                         & \multicolumn{1}{r|}{8.3167}                                                  & \multicolumn{1}{r|}{146.7143}                                                    & \multicolumn{1}{r|}{67}                                  & \multicolumn{1}{r|}{88}                                 & 8                                                                \\ \hline
+            \cellcolor[HTML]{CFE2F3}IQR                                                  & \multicolumn{1}{r|}{24}                                         & \multicolumn{1}{r|}{3.7476}                                                  & \multicolumn{1}{r|}{97.5714}                                                     & \multicolumn{1}{r|}{14.5}                                & \multicolumn{1}{r|}{15}                                 & 1.5                                                              \\ \hline
+            Q1-1.5IQR                                                                    & \multicolumn{1}{r|}{-17}                                        & \multicolumn{1}{r|}{-1.0524}                                                 & \multicolumn{1}{r|}{-97.2143}                                                    & \multicolumn{1}{r|}{30.75}                               & \multicolumn{1}{r|}{50.5}                               & 4.25                                                             \\ \hline
+            Q3+1.5IQR                                                                    & \multicolumn{1}{r|}{79}                                         & \multicolumn{1}{r|}{13.9381}                                                 & \multicolumn{1}{r|}{293.0714}                                                    & \multicolumn{1}{r|}{88.75}                               & \multicolumn{1}{r|}{110.5}                              & 10.25                                                            \\ \hline
+            \cellcolor[HTML]{D9D2E9}Outliers (based on IQR)  If no outlier, answer None. & \multicolumn{1}{r|}{None}                                       & \multicolumn{1}{r|}{16.671}                                                  & \multicolumn{1}{r|}{294.857, 357}                                                & \multicolumn{1}{r|}{25.7, 93, 111.1}                     & \multicolumn{1}{r|}{111}                                & 10.417, 10.533                                                   \\ \hline
+            MEAN-3SD                                                                     & \multicolumn{1}{r|}{-10.5552}                                   & \multicolumn{1}{r|}{-1.8814}                                                 & \multicolumn{1}{r|}{-120.4574}                                                   & \multicolumn{1}{r|}{20.1519}                             & \multicolumn{1}{r|}{41.9565}                            & 3.7379                                                           \\ \hline
+            MEAN+3SD                                                                     & \multicolumn{1}{r|}{68.9188}                                    & \multicolumn{1}{r|}{15.0355}                                                 & \multicolumn{1}{r|}{327.9587}                                                    & \multicolumn{1}{r|}{103.7899}                            & \multicolumn{1}{r|}{119.8254}                           & 10.8818                                                          \\ \hline
+            \cellcolor[HTML]{D9D2E9}Outliers (based on SD)  If no outlier, answer None.  & \multicolumn{1}{r|}{None}                                       & \multicolumn{1}{r|}{16.6714}                                                 & \multicolumn{1}{r|}{357}                                                         & \multicolumn{1}{r|}{111.1}                               & \multicolumn{1}{r|}{None}                               & None                                                             \\ \hline
+            Mean after removing outliers based on IQR. If no outlier, type NA            & \multicolumn{1}{r|}{NA}                                         & \multicolumn{1}{r|}{6.3901}                                                  & \multicolumn{1}{r|}{95.3666}                                                     & \multicolumn{1}{r|}{61.1269}                             & \multicolumn{1}{r|}{80.3333}                            & 7.1904                                                           \\ \hline
+            SD after removing outliers based on IQR. If no outlier, type NA              & \multicolumn{1}{r|}{NA}                                         & \multicolumn{1}{r|}{2.4782}                                                  & \multicolumn{1}{r|}{61.5869}                                                     & \multicolumn{1}{r|}{10.6309}                             & \multicolumn{1}{r|}{12.4173}                            & 1.0355                                                           \\ \hline
+            \rowcolor[HTML]{F4CCCC} 
+            Measure of Centrality                                                        & \multicolumn{6}{c|}{\cellcolor[HTML]{F4CCCC}Median}                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
+            \rowcolor[HTML]{F4CCCC} 
+            Reason                                                                       & \multicolumn{4}{c|}{\cellcolor[HTML]{F4CCCC}The data is right-skewed}                                                                                                                                                                                                                        & \multicolumn{2}{c|}{\cellcolor[HTML]{F4CCCC}The data is left-skewed}                                                       \\ \hline
+            \rowcolor[HTML]{FCE5CD} 
+            Measure of Depersion                                                         & \multicolumn{6}{c|}{\cellcolor[HTML]{FCE5CD}IQR}                                                                                                                                                                                                                                                                                                                                                                          \\ \hline
+            \rowcolor[HTML]{FCE5CD} 
+            Reason                                                                       & \multicolumn{1}{c|}{\cellcolor[HTML]{FCE5CD}The data is skewed} & \multicolumn{5}{c|}{\cellcolor[HTML]{FCE5CD}The dataset has an outlier}                                                                                                                                                                                                                                                                                 \\ \hline
+            \end{tabular}
     \end{adjustbox}
 \end{table}
 \subsection*{Goodness of Fit test}
