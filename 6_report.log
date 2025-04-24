@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  24 APR 2025 14:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  24 APR 2025 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,7 +817,7 @@ Type  H <return>  for immediate help.
                                                   
 l.140 \ProcessOptions\relax
                            
-? rturn
+? return
 OK, entering \nonstopmode...
 ) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
 
@@ -1695,16 +1695,106 @@ LaTeX Font Warning: Font shape `U/matha/m/n' in size <5.5> not available
 
 
 ] (chapter/data_collection.tex
-Underfull \hbox (badness 5622) in paragraph at lines 23--24
-[]\T1/lmr/m/n/11 Number of no-ti-fi-ca-tions on Fri-day
- []
-
-)
 
 [2
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+
+ []
+
+! Misplaced alignment tab character &.
+l.49 ....8\%. Majority of the respondents are 18 &
+                                                   19 years old (45.65\%), f...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+! Misplaced alignment tab character &.
+l.50 ...\%, education with 4.3\% and information &
+                                                   reading with 2.2\%.\\ \par
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+
+ []
+
+! Misplaced alignment tab character &.
+l.51 ...on Sunday the most, followed by Thursday &
+                                                   Tuesday, Wednesday & Frid...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.51 ...ollowed by Thursday & Tuesday, Wednesday &
+                                                   Friday & Saturday and Mon...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.51 ...y Thursday & Tuesday, Wednesday & Friday &
+                                                   Saturday and Monday with ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+
+ []
+
+! Misplaced alignment tab character &.
+l.52 ...n Monday the least, followed by Thursday &
+                                                   Saturday, Wednesday & Sun...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.52 ...llowed by Thursday & Saturday, Wednesday &
+                                                   Sunday, Tuesday and Frida...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+
+ []
+
+)
 
 [3] (chapter/methodology.tex
 
@@ -2565,12 +2655,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 42889 strings out of 408644
- 1062203 string characters out of 5744893
- 1847629 words of memory out of 5000000
- 65287 multiletter control sequences out of 15000+600000
- 606776 words of font info for 70 fonts, out of 8000000 for 9000
+ 42881 strings out of 408644
+ 1062042 string characters out of 5744893
+ 1847657 words of memory out of 5000000
+ 65280 multiletter control sequences out of 15000+600000
+ 606401 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,18n,117p,1047b,2318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,18n,117p,1075b,2318s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 6_report.pdf (17 pages).
