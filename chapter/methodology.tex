@@ -92,8 +92,9 @@
         \cellcolor[HTML]{D9EAD3}$\mathrm{mid}\cdot\widehat{P}(X)$   & \cellcolor[HTML]{D9EAD3}0.163                  & \cellcolor[HTML]{D9EAD3}0.5326                 & \cellcolor[HTML]{D9EAD3}0.587                  & \cellcolor[HTML]{D9EAD3}0.9565217              & \cellcolor[HTML]{D9EAD3}0.5652                 & \cellcolor[HTML]{D9EAD3}0.9783                 & \cellcolor[HTML]{D9EAD3}1.1087                 & \cellcolor[HTML]{D9EAD3}0.8261                  & \cellcolor[HTML]{D9EAD3}0.2283                  & \cellcolor[HTML]{D9EAD3}0                       & \cellcolor[HTML]{D9EAD3}0                       & \cellcolor[HTML]{D9EAD3}0.2935                  & \multicolumn{1}{l|}{}                                                           & \multicolumn{1}{l|}{}                                                                 \\ \hline
         \end{tabular}
     \end{adjustbox}
-\end{table}\newpage
-\begin{figure}[hb!]
+\end{table}
+The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 30.10870 which is calculated by summing all of $P[Y]$.
+\begin{figure}[ht!]
     \begin{tikzpicture}[scale=0.51]
         \begin{axis}
             [
@@ -133,10 +134,9 @@
         \end{axis}
     \end{tikzpicture}
 \end{figure}
-\lipsum[10]
-\\
+The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 30.1087, n = 46, s_x = 2.4862, s_y = 13.2031\). Therefore, \(S_{X, Y} = -10.9625\) and \(r = -0.3340\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.
 \subsection*{Screen time vs Sleeping time}
-\begin{table}[ht]
+\begin{table}[hb]
     \begin{adjustbox}{width = \textwidth, center}
         \begin{tabular}{|cc|r|r|r|r|r|r|r|r|r|r|r|r|r|r|r|}
             \hline
@@ -156,9 +156,10 @@
             \multicolumn{2}{|c|}{\cellcolor[HTML]{FFF2CC}$\mathrm{mid}\cdot\widehat{P}(X)$} & \cellcolor[HTML]{FFF2CC}0.163                  & \cellcolor[HTML]{FFF2CC}0.5326                 & \cellcolor[HTML]{FFF2CC}0.587                  & \cellcolor[HTML]{FFF2CC}0.9565217              & \cellcolor[HTML]{FFF2CC}0.5652                 & \cellcolor[HTML]{FFF2CC}0.9783                 & \cellcolor[HTML]{FFF2CC}1.1087                 & \cellcolor[HTML]{FFF2CC}0.8261                  & \cellcolor[HTML]{FFF2CC}0.2283                  & \cellcolor[HTML]{FFF2CC}0                       & \cellcolor[HTML]{FFF2CC}0                       & \cellcolor[HTML]{FFF2CC}0.2935                  & \multicolumn{1}{l|}{}                                                           & \multicolumn{1}{l|}{\cellcolor[HTML]{E6B8AF}$\widehat{E}(Y)$}           & \cellcolor[HTML]{E6B8AF}7.3261                                                        \\ \hline
         \end{tabular}
     \end{adjustbox}
-\end{table}\\
-\begin{figure}[hb!]
-    \begin{tikzpicture}[scale=0.51]
+\end{table}
+The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 7.3261 which is calculated by summing all of $P[Y]$.\\
+\begin{figure}[ht]
+    \begin{tikzpicture}[scale=0.44]
         \begin{axis}
             [
                 xlabel = screen duration (Hrs),
@@ -176,7 +177,7 @@
             \addplot+[ybar interval] table [y=Px_SS, col sep=comma, x expr=\coordindex+2] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-    \begin{tikzpicture}[scale=0.8]
+    \begin{tikzpicture}[scale=0.69]
         \begin{axis}
             [
                 xlabel = Sleeping time,
@@ -195,8 +196,7 @@
         \end{axis}
     \end{tikzpicture}
 \end{figure}
-\lipsum[11]
-\\
+The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 93.7671, n = 46, s_x = 2.4862, s_y = 56.1233\). Therefore, \(S_{X, Y} = 24.6359\) and \(r = 0.1766\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
 \subsection*{Screen time vs Notification}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
@@ -224,7 +224,8 @@
             \end{tabular}
     \end{adjustbox}
 \end{table}\\
-\begin{figure}[hb!]
+The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 81.5217 which is calculated by summing all of $P[Y]$.\\
+\begin{figure}[ht!]
     \begin{tikzpicture}[scale=0.51]
         \begin{axis}
             [
@@ -263,9 +264,8 @@
             \addplot+[ybar interval] table [y=Py_SN, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}\\
-\lipsum[12]
-\newpage
+\end{figure}
+The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 80.7174, n = 46, s_x = 2.4862, s_y = 10.8805\). Therefore, \(S_{X, Y} = -1.3246\) and \(r = -0.0490\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
 \subsection*{Screen time vs Heart rate}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
@@ -297,8 +297,9 @@
             \multicolumn{2}{|c|}{\cellcolor[HTML]{FCE5CD}$\mathrm{mid}\cdot\widehat{P}(X)$} & \cellcolor[HTML]{FCE5CD}0.163                  & \cellcolor[HTML]{FCE5CD}0.5326                 & \cellcolor[HTML]{FCE5CD}0.587                  & \cellcolor[HTML]{FCE5CD}0.9565                 & \cellcolor[HTML]{FCE5CD}0.5652                 & \cellcolor[HTML]{FCE5CD}0.9783                 & \cellcolor[HTML]{FCE5CD}1.1087                 & \cellcolor[HTML]{FCE5CD}0.8261                  & \cellcolor[HTML]{FCE5CD}0.2283                  & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0.2935                  & \multicolumn{1}{l|}{}                                                           & \multicolumn{1}{l|}{\cellcolor[HTML]{D9D9D9}$\widehat{E}(Y)$}           & \cellcolor[HTML]{D9D9D9}81.5217                                                                  \\ \hline
         \end{tabular}
     \end{adjustbox}
-\end{table}\\
-\begin{figure}[hb!]
+\end{table}\newpage
+The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 61.3043 which is calculated by summing all of $P[Y]$.\\
+\begin{figure}[ht!]
     \begin{tikzpicture}[scale=0.51]
         \begin{axis}
             [
@@ -337,9 +338,8 @@
             \addplot+[ybar interval] table [y=Py_SH, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}\\
-\lipsum[13]
-\newpage
+\end{figure}
+The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 80.7174, n = 46, s_x = 2.4862, s_y = 10.8805\). Therefore, \(S_{X, Y} = -1.3246\) and \(r = -0.0490\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
 \subsection*{Screen time vs Weight}
 \begin{table}[ht]
     \begin{adjustbox}{width = \textwidth, center}
@@ -362,8 +362,9 @@
             \multicolumn{2}{|c|}{\cellcolor[HTML]{FCE5CD}$\mathrm{mid}\cdot\widehat{P}(X)$} & \cellcolor[HTML]{FCE5CD}0.163                  & \cellcolor[HTML]{FCE5CD}0.5326                 & \cellcolor[HTML]{FCE5CD}0.587                  & \cellcolor[HTML]{FCE5CD}0.9565                 & \cellcolor[HTML]{FCE5CD}0.5652                 & \cellcolor[HTML]{FCE5CD}0.9783                 & \cellcolor[HTML]{FCE5CD}1.1087                 & \cellcolor[HTML]{FCE5CD}0.8261                  & \cellcolor[HTML]{FCE5CD}0.2283                  & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0                       & \cellcolor[HTML]{FCE5CD}0.2935                  & \multicolumn{1}{l|}{}                                                           & \multicolumn{1}{c|}{\cellcolor[HTML]{C9DAF8}$\widehat{E}(Y)$}           & \cellcolor[HTML]{C9DAF8}61.3043                                                                  \\ \hline
         \end{tabular}
     \end{adjustbox}
-\end{table}\\
-\begin{figure}[hb!]
+\end{table}
+The individual probability from the table comes from dividing frequency with the number of samples. $P[X]$ comes from summing the data for all columns. $P[Y]$ comes from summing the data for all rows. The expected value of $X$ $(E[X])$ is 6.23913 which is calculated by summing all of $P[X]$ and the expected value of $Y$ $(E[Y])$ is 61.3043 which is calculated by summing all of $P[Y]$.\\
+\begin{figure}[ht!]
     \begin{tikzpicture}[scale=0.51]
         \begin{axis}
             [
@@ -402,9 +403,8 @@
             \addplot+[ybar interval] table [y=Py_SW, col sep=comma, x expr=\coordindex] {6 graph.csv};
         \end{axis}
     \end{tikzpicture}
-\end{figure}\\
-\lipsum[14]
-\clearpage\newpage
+\end{figure}
+The correlation coefficient is computed by using the formula \(r = \dfrac{S_{X, Y}}{s_xs_y}\) and \(S_{X, Y}=\dfrac{1}{n-1}\dsl^n_{i=1}\left(x_i-\overline{X}\right)\left(y_i-\overline{Y}\right)\). In this case, \(\overline{X} = 6.271, \overline{Y} = 61.0587, n = 46, s_x = 2.4862, s_y = 10.3099\). Therefore, \(S_{X, Y} = -0.3518\) and \(r = -0.0137\). Thus, the relation between $X$ and $Y$ has a weak negative relationship.\\
 \section*{Statistics}
 \subsection*{Descriptive Statistics}
 \begin{table}[ht]
@@ -437,7 +437,6 @@
         \end{tabular}%
     \end{adjustbox}
 \end{table}
-\lipsum[15-17]\\
 \subsection*{Goodness of Fit test}
 
 \begin{enumerate}

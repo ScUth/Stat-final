@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  24 APR 2025 16:25
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  24 APR 2025 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1581,7 +1581,7 @@ LaTeX Font Info:    ... okay on input line 180.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=435.0pt
-* \textheight=720.0pt
+* \textheight=750.0pt
 * \oddsidemargin=28.45274pt
 * \evensidemargin=54.0pt
 * \topmargin=-23.0pt
@@ -1594,7 +1594,7 @@ LaTeX Font Info:    ... okay on input line 180.
 * \columnsep=10.0pt
 * \skip\footins=9.89996pt plus 4.3995pt minus 2.20045pt
 * \hoffset=0.0pt
-* \voffset=3.55658pt
+* \voffset=-42.67912pt
 * \mag=1000
 * \@twocolumnfalse
 * \@twosidefalse
@@ -1695,15 +1695,16 @@ LaTeX Font Warning: Font shape `U/matha/m/n' in size <5.5> not available
 
 
 ] (chapter/data_collection.tex
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+
+ []
+
+
 
 [2
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
- []
-
 ! Misplaced alignment tab character &.
 l.49 ....8\%. Majority of the respondents are 18 &
                                                    19 years old (45.65\%), f...
@@ -1797,11 +1798,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
 )
 
 [3] (chapter/methodology.tex
-
-[4
-
-
-]
 PGFPlots: reading {"6 graph.csv"}
 
 NOTE: coordinate (1Y1.5e1],) has been dropped because of a coordinate filter. (
@@ -1863,7 +1859,7 @@ see also unbounded coords=jump).
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    .
-l.115     \begin{tikzpicture}[scale=0.43.5]
+l.116     \begin{tikzpicture}[scale=0.43.5]
                                            
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -1879,7 +1875,7 @@ Missing character: There is no t in font nullfont!
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    .
-l.115     \begin{tikzpicture}[scale=0.43.5]
+l.116     \begin{tikzpicture}[scale=0.43.5]
                                            
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -1894,24 +1890,13 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 PGFPlots: reading {"6 graph.csv"}
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
- []
+[4
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 \begin
-            {figure}[hb!]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+]
 PGFPlots: reading {"6 graph.csv"}
+
 NOTE: coordinate (1Y1.8e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 NOTE: coordinate (1Y1.9e1],) has been dropped because of a coordinate filter. (
@@ -2032,7 +2017,7 @@ see also unbounded coords=jump).
 NOTE: coordinate (1Y4.4e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 160--200
 
  []
 
@@ -2046,8 +2031,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 \begin
-            {figure}[hb!]
+l.227 T
+       he individual probability from the table comes from dividing frequenc...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2173,35 +2159,15 @@ see also unbounded coords=jump).
 NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 227--269
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.267 \lipsum
-             [12]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 
 
 [6]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.301 \begin
-            {figure}[hb!]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 PGFPlots: reading {"6 graph.csv"}
+
 NOTE: coordinate (1Y1.5e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 NOTE: coordinate (1Y1.6e1],) has been dropped because of a coordinate filter. (
@@ -2318,33 +2284,9 @@ see also unbounded coords=jump).
 NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 301--343
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.341 \lipsum
-             [13]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-
-[7]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.366 \begin
-            {figure}[hb!]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 PGFPlots: reading {"6 graph.csv"}
 NOTE: coordinate (1Y1.5e1],) has been dropped because of a coordinate filter. (
@@ -2471,53 +2413,38 @@ see also unbounded coords=jump).
 NOTE: coordinate (1Y4.0e1],) has been dropped because of a coordinate filter. (
 see also unbounded coords=jump). 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 366--408
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.406 \lipsum
-             [14]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
+
+
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 443--460
+
+ []
 
 
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 460--477
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--461
-
- []
-
-
-
-[9
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 461--478
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--495
+Underfull \hbox (badness 10000) in paragraph at lines 477--494
 
  []
 
 
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 495--512
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 494--511
 
  []
 
 ! Misplaced alignment tab character &.
-l.517 ...ollect data from 55 people. Sample mean &
+l.516 ...ollect data from 55 people. Sample mean &
                                                    sample standard deviation...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2528,13 +2455,13 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 
  []
 
 ! Misplaced alignment tab character &.
-l.542                 \alpha &
+l.541                 \alpha &
                               : 0.05
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2551,13 +2478,13 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.548                 \end{align}
+l.547                 \end{align}
                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Misplaced alignment tab character &.
-l.551                 z &
+l.550                 z &
                          \geq 1.6449
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2567,7 +2494,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.560 ...ollect data from 55 people. Sample mean &
+l.559 ...ollect data from 55 people. Sample mean &
                                                    sample standard deviation...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2577,15 +2504,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
 
  []
 
-
-
-[12]
 ! Misplaced alignment tab character &.
-l.581                     z &
+l.580                     z &
                              = \dfrac{\overline{X}-\mu_0}{\frac{S}{\sqrt{n}}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2594,8 +2518,11 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+
+
+[11]
 ! Misplaced alignment tab character &.
-l.585                 \alpha &
+l.584                 \alpha &
                               : 0.01
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2612,13 +2539,13 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.591                 \end{align}
+l.590                 \end{align}
                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Misplaced alignment tab character &.
-l.594                 z &
+l.593                 z &
                          \geq 2.3263
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2629,21 +2556,49 @@ might try typing `S' now just to see what is salvageable.
 
 )
 
-[13] (chapter/conclusion.tex)
+[12] (chapter/conclusion.tex)
 
-[14
-
-
-]
-
-[15] (chapter/appendix.tex)
-
-[16
+[13
 
 
 ]
 
-[17] (6_report.aux)
+[14] (chapter/appendix.tex)
+
+[15
+
+
+]
+
+[16]
+One-sided document style.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+91.
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Calculating math sizes for size <9.16678> on input line 191
+.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.16678> on input line 191.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.4167> on input line 191.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <4.58339> on input line 191.
+
+
+LaTeX Font Warning: Font shape `U/matha/m/n' in size <6.4167> not available
+(Font)              size <6> substituted on input line 191.
+
+
+LaTeX Font Warning: Font shape `U/matha/m/n' in size <4.58339> not available
+(Font)              size <5> substituted on input line 191.
+
+
+
+[17
+
+] (6_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2655,12 +2610,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 42881 strings out of 408644
- 1062042 string characters out of 5744893
- 1847657 words of memory out of 5000000
- 65280 multiletter control sequences out of 15000+600000
- 606401 words of font info for 69 fonts, out of 8000000 for 9000
+ 42954 strings out of 408644
+ 1063122 string characters out of 5744893
+ 1857820 words of memory out of 5000000
+ 65340 multiletter control sequences out of 15000+600000
+ 622414 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,18n,117p,1075b,2318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,18n,117p,1075b,2322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 6_report.pdf (17 pages).
