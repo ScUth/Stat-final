@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 17:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1677,12 +1677,7 @@ Package csquotes Info: Making character " active on input line 182.
 \c@lstlisting=\count451
 
 (chapter/summary.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
@@ -1741,12 +1736,8 @@ LaTeX Font Warning: Font shape `U/matha/m/n' in size <5.5> not available
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
 ! Misplaced alignment tab character &.
-l.50 ....8\%. Majority of the respondents are 18 &
+l.50 .... The majority of the respondents are 18 &
                                                    19 years old (45.65\%), f...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1755,25 +1746,15 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-
- []
-
 ! Misplaced alignment tab character &.
-l.51 ...\%, education with 4.3\% and information &
-                                                   reading with 2.2\%.\\ \par
+l.51 ...8\%, education at 4.3\%, and information &
+                                                   reading at 2.2\%. \\*[5pt]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
 up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-
- []
 
 ! Misplaced alignment tab character &.
 l.52 ...on Sunday the most, followed by Thursday &
@@ -1805,11 +1786,6 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-
- []
-
 ! Misplaced alignment tab character &.
 l.53 ...n Monday the least, followed by Thursday &
                                                    Saturday, Wednesday & Sun...
@@ -1830,12 +1806,12 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+)
+Underfull \hbox (badness 10000) in paragraph at lines 49--186
 
  []
 
-)
+
 
 [3] (chapter/methodology.tex
 PGFPlots: reading {"6 graph.csv"}
@@ -2641,20 +2617,6 @@ might try typing `S' now just to see what is salvageable.
 )
 
 [12] (chapter/conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-
- []
-
 ! Misplaced alignment tab character &.
 l.5 ...eople who answer the survey are around 18 &
                                                    19 years old which might ...
@@ -2666,6 +2628,11 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 )
+Underfull \hbox (badness 10000) in paragraph at lines 2--190
+
+ []
+
+
 
 [13
 
