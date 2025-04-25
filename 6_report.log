@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 21:12
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1735,78 +1735,7 @@ LaTeX Font Warning: Font shape `U/matha/m/n' in size <5.5> not available
 [2
 
 
-]
-! Misplaced alignment tab character &.
-l.50 .... The majority of the respondents are 18 &
-                                                   19 years old (45.65\%), f...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.51 ...8\%, education at 4.3\%, and information &
-                                                   reading at 2.2\%. \\*[5pt]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.52 ...on Sunday the most, followed by Thursday &
-                                                   Tuesday, Wednesday & Frid...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.52 ...ollowed by Thursday & Tuesday, Wednesday &
-                                                   Friday & Saturday and Mon...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.52 ...y Thursday & Tuesday, Wednesday & Friday &
-                                                   Saturday and Monday with ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.53 ...n Monday the least, followed by Thursday &
-                                                   Saturday, Wednesday & Sun...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.53 ...llowed by Thursday & Saturday, Wednesday &
-                                                   Sunday, Tuesday and Frida...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-)
+])
 Underfull \hbox (badness 10000) in paragraph at lines 49--186
 
  []
@@ -2616,18 +2545,7 @@ might try typing `S' now just to see what is salvageable.
 
 )
 
-[12] (chapter/conclusion.tex
-! Misplaced alignment tab character &.
-l.5 ...eople who answer the survey are around 18 &
-                                                   19 years old which might ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-)
+[12] (chapter/conclusion.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 2--190
 
  []
