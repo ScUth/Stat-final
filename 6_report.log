@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  24 APR 2025 21:15
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1486,16 +1486,27 @@ File: ppxetex.def 2025/01/30 v0.6e Pdfpages driver for XeTeX (AM)
 \c@AM@survey=\count430
 \AM@templatesizebox=\box152
 )
-(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count431
-\csq@gtype=\count432
-\csq@glevel=\count433
-\csq@qlevel=\count434
-\csq@maxlvl=\count435
-\csq@tshold=\count436
-\csq@ltx@everypar=\toks58
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/pgf-pie\pgf-pie.sty
+Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/T
+ikz package.
 
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/pgf-pie\tikzlibrarypie.
+code.tex
+(C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+\pgfpie@angleEnd=\dimen372
+\pgfpie@explodeLength=\count431
+\pgfpie@colorLength=\count432
+\pgfpie@sliceLength=\count433
+)) (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.st
+y
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count434
+\csq@gtype=\count435
+\csq@glevel=\count436
+\csq@qlevel=\count437
+\csq@maxlvl=\count438
+\csq@tshold=\count439
+\csq@ltx@everypar=\toks58
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
@@ -1513,33 +1524,33 @@ Package csquotes Info: Allocating character ".
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip137
-\enit@outerparindent=\dimen372
+\enit@outerparindent=\dimen373
 \enit@toks=\toks59
 \enit@inbox=\box153
-\enit@count@id=\count437
-\enitdp@description=\count438
+\enit@count@id=\count440
+\enitdp@description=\count441
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count439
+\lst@mode=\count442
 \lst@gtempboxa=\box154
 \lst@token=\toks60
-\lst@length=\count440
-\lst@currlwidth=\dimen373
-\lst@column=\count441
-\lst@pos=\count442
-\lst@lostspace=\dimen374
-\lst@width=\dimen375
-\lst@newlines=\count443
-\lst@lineno=\count444
-\lst@maxwidth=\dimen376
+\lst@length=\count443
+\lst@currlwidth=\dimen374
+\lst@column=\count444
+\lst@pos=\count445
+\lst@lostspace=\dimen375
+\lst@width=\dimen376
+\lst@newlines=\count446
+\lst@lineno=\count447
+\lst@maxwidth=\dimen377
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count445
-\lst@skipnumbers=\count446
+\c@lstnumber=\count448
+\lst@skipnumbers=\count449
 \lst@framebox=\box155
 )
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -1557,22 +1568,22 @@ LaTeX Warning: Unused global option(s):
 (6_report.aux)
 \openout1 = `6_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 180.
-LaTeX Font Info:    ... okay on input line 180.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 180.
-LaTeX Font Info:    ... okay on input line 180.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 180.
-LaTeX Font Info:    ... okay on input line 180.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 180.
-LaTeX Font Info:    ... okay on input line 180.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 180.
-LaTeX Font Info:    ... okay on input line 180.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 180.
-LaTeX Font Info:    ... okay on input line 180.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 180.
-LaTeX Font Info:    ... okay on input line 180.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 180.
-LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1617,7 +1628,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
 \flrow@LT@lasthead=\box156
 \flrow@LT@prelastfoot=\box157
-\c@FBLTpage=\count447
+\c@FBLTpage=\count450
 )
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1637,57 +1648,62 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-Package csquotes Info: Making character " active on input line 180.
-\c@lstlisting=\count448
+Package csquotes Info: Making character " active on input line 181.
+\c@lstlisting=\count451
 
 (chapter/summary.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 5.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 7.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
 .
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
 .
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-5.
+7.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-5.
+7.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 5.
+(Font)              <11> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 5.
+(Font)              <7.69997> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 5.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+(Font)              <5.5> on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `U/matha/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 5.
+(Font)              size <5> substituted on input line 7.
 
 )
 
@@ -2574,47 +2590,84 @@ might try typing `S' now just to see what is salvageable.
 
 )
 
-[12] (chapter/conclusion.tex)
+[12] (chapter/conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+
+ []
+
+! Misplaced alignment tab character &.
+l.5 ...eople who answer the survey are around 18 &
+                                                   19 years old which might ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
 
 [13
 
 
+] (chapter/appendix.tex
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33     \end{figure}\\
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+
+[14
+
+
 ]
 
-[14] (chapter/appendix.tex)
-
-[15
-
-
-]
-
-[16]
+[15]
 One-sided document style.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-91.
+92.
 (C:\Users\scien\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <9.16678> on input line 191
+LaTeX Font Info:    Calculating math sizes for size <9.16678> on input line 192
 .
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.16678> on input line 191.
+(Font)              <9.16678> on input line 192.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.4167> on input line 191.
+(Font)              <6.4167> on input line 192.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.58339> on input line 191.
+(Font)              <4.58339> on input line 192.
 
 
 LaTeX Font Warning: Font shape `U/matha/m/n' in size <6.4167> not available
-(Font)              size <6> substituted on input line 191.
+(Font)              size <6> substituted on input line 192.
 
 
 LaTeX Font Warning: Font shape `U/matha/m/n' in size <4.58339> not available
-(Font)              size <5> substituted on input line 191.
+(Font)              size <5> substituted on input line 192.
 
 
 
-[17
+[16
 
 ] (6_report.aux)
  ***********
@@ -2628,12 +2681,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 42955 strings out of 408644
- 1063171 string characters out of 5744893
- 1853059 words of memory out of 5000000
- 65341 multiletter control sequences out of 15000+600000
+ 43758 strings out of 408644
+ 1080447 string characters out of 5744893
+ 1856892 words of memory out of 5000000
+ 66135 multiletter control sequences out of 15000+600000
  622414 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,18n,117p,1075b,2322s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,18n,117p,1075b,2323s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 6_report.pdf (17 pages).
+Output written on 6_report.pdf (16 pages).
