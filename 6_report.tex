@@ -36,7 +36,7 @@
 \pgfplotsset{compat=1.18}
 \usepackage{subcaption}
 \usetikzlibrary{plotmarks}
-\usetikzlibrary{calc}
+\usetikzlibrary{positioning, calc}
 \usepgfplotslibrary{fillbetween}
 \usetikzlibrary{spy}
 \usetikzlibrary{decorations,calligraphy}
@@ -163,6 +163,8 @@
 \usepackage{fancyhdr}
 \usepackage{pdfpages}
 \usepackage{pgf-pie}
+\usepackage[dvipsnames,table,xcdraw]{xcolor}
+\usetikzlibrary{shapes.geometric,arrows}
 
 % \pagenumbering{gobble}
 
@@ -176,7 +178,6 @@
 \usepackage[shortlabels]{enumitem}
 \setlist[enumerate]{font=\color{Red}}
 \usepackage{listings}
-\usepackage[table,xcdraw]{xcolor}
 
 \begin{document}
     \input{chapter/summary.tex}
