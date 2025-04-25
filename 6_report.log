@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 21:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1975,8 +1975,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.237 T
-       he individual probability from the table comes from dividing frequenc...
+l.237 \noindent
+                The individual probability from the table comes from dividin...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2112,8 +2112,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 T
-       he individual probability from the table comes from dividing frequenc...
+l.315 \noindent
+                The individual probability from the table comes from dividin...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2245,8 +2245,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.384 T
-       he individual probability from the table comes from dividing frequenc...
+l.384 \noindent
+                The individual probability from the table comes from dividin...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
