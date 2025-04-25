@@ -56,131 +56,236 @@
   \end{tikzpicture}
   \caption{Pie Chart of Gender}
 \end{figure}
+% ────────── User settings ──────────
+% 1) Your data: comma‐separated “percent/label”
+\def\pieData{23.91/Sunday, 15.21/Thursday, 15.21/Tuesday, 13.04/Wednesday, 13.04/Friday, 13.04/Saturday, 6.52/Monday}
+
+% 2) Colors (pgf list) and count
+\def\pieColors{{"red","Orange","magenta","Green","cyan","violet","Gold2"}}
+\def\colorCount{7}
+
+% 3) Pie geometry
+\def\startAngle{90}       % where slice #1 begins (90° = top)
+\def\pieRadius{3cm}       % radius of the pie
+
+% 4) Legend styling & placement
+\def\legendDist{1cm}      % horizontal gap between pie and legend
+\def\lineSep{0.8cm}       % vertical separation between legend items
+\def\labelFont{\small}    % legend font size
+% ───────────────────────────────────
 
 \begin{figure}[h]
-    \centering
-    % start at 90°
-    \def\angle{90}%
-    \def\radius{2}%
-    \def\cyclelist{{"red","magenta","orange","green","cyan","violet","yellow"}}%
-  
-    \newcount\cyclecount \cyclecount=-1
-    \newcount\ind        \ind=-1
-    \begin{tikzpicture}[nodes={font=\small}, scale=1.6]
-      % sorted descending: Sunday first (23.91%), …, Monday last (6.52%)
-      \foreach \percent/\name in {
-        23.91/Sunday,
-        15.21/Tuesday,
-        15.21/Thursday,
-        13.04/Wednesday,
-        13.04/Friday,
-        13.04/Saturday,
-        6.52/Monday
-      }{%
-        % cycle through colors
-        \global\advance\cyclecount by 1
-        \global\advance\ind        by 1
-        \ifnum\cyclecount>6
-          \global\cyclecount=0
-          \global\ind       =0
-        \fi
-        \pgfmathparse{\cyclelist[\the\ind]}%
-        \edef\color{\pgfmathresult}%
-  
-        % draw slice CLOCKWISE by subtracting degrees
-        \draw[fill=\color!50, draw=\color]
-          (0,0) -- (\angle:\radius)
-          arc (\angle:\angle-\percent*3.6:\radius) -- cycle;
-  
-        % place the pin at the slice‐midpoint (angle minus half the sweep)
-        \node[pin={[pin distance=1cm]\angle-0.5*\percent*3.6:{\name\ [\percent\%]}}]
-          at (\angle-0.5*\percent*3.6:\radius) {};
-  
-        % advance the start angle
-        \pgfmathparse{\angle-\percent*3.6}%
-        \xdef\angle{\pgfmathresult}%
-      }
-    \end{tikzpicture}
-  
-    \caption{Pie chart of days with the highest screen time (sorted largest→smallest, clockwise)}
-\end{figure}
-
-\begin{center}
-    % \begin{figure}[ht]
-    %     \begin{tikzpicture}
-    %         \pie[text=legend, rotate=90]{2.2/Information and Reading, 4.3/Education, 34.8/Social, 58.7/Entertainment}
-    %     \end{tikzpicture}
-    %     \caption{Pie chart of the most use application type}
-    % \end{figure}
-    % ──────────────── User settings ─────────────────
-    % 1) Your data: comma-separated list of “percent/label”
-    \def\pieData{2.2/Information and Reading, 4.3/Education, 34.8/Social, 58.7/Entertainment}
-
-    % 2) Color cycle (must be a pgf list) and its length
-    \def\pieColors{{"orange","blue","gray","red"}}
-    \def\colorCount{7}
-
-    % 3) Chart geometry & label style
-    \def\startAngle{90}       % where slice #1 begins (90° = top)
-    \def\pieRadius{3cm}       % radius of pie
-    \def\pinDistance{1.2cm}    % how long the “pin” sticks out
-    % \def\labelFont{\scriptsize} % font size for labels
-    % ─────────────────────────────────────────────────
-
-    \begin{figure}[h]
-    \centering
-    \begin{tikzpicture}[
-        nodes={font=\labelFont},
-        every pin/.append style={pin distance=\pinDistance}
-    ]
-    % internal counters
-    \newcount\sliceIndex \sliceIndex=-1
+  \centering
+  \begin{tikzpicture}[nodes={font=\labelFont}]
+    % ─── Draw the pie ───
+    \newcount\sliceIdx \sliceIdx=-1
     \def\angle{\startAngle}
-
     \foreach \percent/\name in \pieData {%
-        % cycle through colors
-        \global\advance\sliceIndex by 1
-        \ifnum\sliceIndex>\numexpr\colorCount-1\relax
-        \global\sliceIndex=0
-        \fi
-        \pgfmathparse{\pieColors[\the\sliceIndex]}%
-        \edef\sliceColor{\pgfmathresult}%
-
-        % draw one slice (clockwise)
-        \draw[fill=\sliceColor!50,draw=\sliceColor]
+      \global\advance\sliceIdx by 1
+      \ifnum\sliceIdx>\numexpr\colorCount-1\relax
+        \global\sliceIdx=0
+      \fi
+      \pgfmathparse{\pieColors[\the\sliceIdx]}\edef\sliceColor{\pgfmathresult}
+      \draw[fill=\sliceColor!50,draw=\sliceColor]
         (0,0) -- (\angle:\pieRadius)
         arc(\angle:\angle-\percent*3.6:\pieRadius) -- cycle;
-
-        % compute midpoint angle for label
-        \pgfmathparse{\angle - 0.5*(\percent*3.6)}%
-        \edef\midAngle{\pgfmathresult}%
-
-        % place pin label
-        \node[pin={[pin distance=\pinDistance]\midAngle:{\name\ [\percent\%]}}]
-        at (\midAngle:\pieRadius) {};
-
-        % advance start angle
-        \pgfmathparse{\angle - \percent*3.6}%
-        \xdef\angle{\pgfmathresult}%
+      \pgfmathparse{\angle-\percent*3.6}\xdef\angle{\pgfmathresult}
     }
-    \end{tikzpicture}
-    \caption{Pie chart (largest→smallest, clockwise from 90°).}
-    \end{figure}
 
-    \begin{figure}[ht]
-        \begin{tikzpicture}
-            \pie[text=legend, rotate=90]{2.2/Friday, 8.7/Tuesday, 10.9/Sunday, 10.9/Wednesday, 19.6/Saturday, 19.6/Thursday, 28.3/Monday}
-        \end{tikzpicture}
-        \caption{Pie chart of day with the lowest screen time}
-    \end{figure}
+    % ─── Compute legend anchor ───
+    % This puts the top legend entry at (pieRadius + legendDist, +pieRadius)
+    \coordinate (legendBase) at 
+      ({\pieRadius+\legendDist}, {\pieRadius});
 
-    \begin{figure}[ht]
-        \begin{tikzpicture}
-            \pie[text=legend, rotate=90]{2.17/Cataract, 2.17/Color blindness, 2.17/Pinguecula, 23.9/Astigmatism, 69.6/None}
-        \end{tikzpicture}
-        \caption{Pie chart of other eyesight problem}
-    \end{figure}
-\end{center}\\
+    % ─── Draw the legend ───
+    \foreach [count=\i from 0] \percent/\name in \pieData {%
+      \pgfmathparse{\pieColors[\i]}\edef\legendColor{\pgfmathresult}
+      % colored box
+      \fill[\legendColor!50]
+        ($(legendBase)+(0,-\i*\lineSep)$) rectangle ++(6pt,-6pt);
+      \draw
+        ($(legendBase)+(0,-\i*\lineSep)$) rectangle ++(6pt,-6pt);
+      % label text
+      \node[anchor=west]
+        at 
+        ($ (legendBase)+(0,-\i*\lineSep) + (8pt,-3pt) $)
+        {\name\ [\percent\%]};
+    }
+  \end{tikzpicture}
+  \caption{Pie chart with legend to the right (always outside).}
+\end{figure}
+
+\def\pieData{58.7/Entertainment, 34.8/Social, 4.3/Education, 2.2/Information and Reading}
+
+% 2) Colors (pgf list) and count
+\def\pieColors{{"Orange","red","magenta","Green"}}
+\def\colorCount{4}
+
+% 3) Pie geometry
+\def\startAngle{90}       % where slice #1 begins (90° = top)
+\def\pieRadius{3cm}       % radius of the pie
+
+% 4) Legend styling & placement
+\def\legendDist{1cm}      % horizontal gap between pie and legend
+\def\lineSep{0.8cm}       % vertical separation between legend items
+\def\labelFont{\small}    % legend font size
+% ───────────────────────────────────
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}[nodes={font=\labelFont}]
+    % ─── Draw the pie ───
+    \newcount\sliceIdx \sliceIdx=-1
+    \def\angle{\startAngle}
+    \foreach \percent/\name in \pieData {%
+      \global\advance\sliceIdx by 1
+      \ifnum\sliceIdx>\numexpr\colorCount-1\relax
+        \global\sliceIdx=0
+      \fi
+      \pgfmathparse{\pieColors[\the\sliceIdx]}\edef\sliceColor{\pgfmathresult}
+      \draw[fill=\sliceColor!50,draw=\sliceColor]
+        (0,0) -- (\angle:\pieRadius)
+        arc(\angle:\angle-\percent*3.6:\pieRadius) -- cycle;
+      \pgfmathparse{\angle-\percent*3.6}\xdef\angle{\pgfmathresult}
+    }
+
+    % ─── Compute legend anchor ───
+    % This puts the top legend entry at (pieRadius + legendDist, +pieRadius)
+    \coordinate (legendBase) at 
+      ({\pieRadius+\legendDist}, {\pieRadius});
+
+    % ─── Draw the legend ───
+    \foreach [count=\i from 0] \percent/\name in \pieData {%
+      \pgfmathparse{\pieColors[\i]}\edef\legendColor{\pgfmathresult}
+      % colored box
+      \fill[\legendColor!50]
+        ($(legendBase)+(0,-\i*\lineSep)$) rectangle ++(6pt,-6pt);
+      \draw
+        ($(legendBase)+(0,-\i*\lineSep)$) rectangle ++(6pt,-6pt);
+      % label text
+      \node[anchor=west]
+        at 
+        ($ (legendBase)+(0,-\i*\lineSep) + (8pt,-3pt) $)
+        {\name\ [\percent\%]};
+    }
+  \end{tikzpicture}
+  \caption{Pie chart with legend to the right (always outside).}
+\end{figure}
+
+\def\pieData{28.3/Monday, 19.6/Saturday, 19.6/Thursday, 10.9/Sunday, 10.9/Wednesday, 8.7/Tuesday, 2.2/Friday}
+
+% 2) Colors (pgf list) and count
+\def\pieColors{{"Gold2","violet","Orange","red","Green","magenta","cyan"}}
+\def\colorCount{7}
+
+% 3) Pie geometry
+\def\startAngle{90}       % where slice #1 begins (90° = top)
+\def\pieRadius{3cm}       % radius of the pie
+
+% 4) Legend styling & placement
+\def\legendDist{1cm}      % horizontal gap between pie and legend
+\def\lineSep{0.8cm}       % vertical separation between legend items
+\def\labelFont{\small}    % legend font size
+% ───────────────────────────────────
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}[nodes={font=\labelFont}]
+    % ─── Draw the pie ───
+    \newcount\sliceIdx \sliceIdx=-1
+    \def\angle{\startAngle}
+    \foreach \percent/\name in \pieData {%
+      \global\advance\sliceIdx by 1
+      \ifnum\sliceIdx>\numexpr\colorCount-1\relax
+        \global\sliceIdx=0
+      \fi
+      \pgfmathparse{\pieColors[\the\sliceIdx]}\edef\sliceColor{\pgfmathresult}
+      \draw[fill=\sliceColor!50,draw=\sliceColor]
+        (0,0) -- (\angle:\pieRadius)
+        arc(\angle:\angle-\percent*3.6:\pieRadius) -- cycle;
+      \pgfmathparse{\angle-\percent*3.6}\xdef\angle{\pgfmathresult}
+    }
+
+    % ─── Compute legend anchor ───
+    % This puts the top legend entry at (pieRadius + legendDist, +pieRadius)
+    \coordinate (legendBase) at 
+      ({\pieRadius+\legendDist}, {\pieRadius});
+
+    % ─── Draw the legend ───
+    \foreach [count=\i from 0] \percent/\name in \pieData {%
+      \pgfmathparse{\pieColors[\i]}\edef\legendColor{\pgfmathresult}
+      % colored box
+      \fill[\legendColor!50]
+        ($(legendBase)+(0,-\i*\lineSep)$) rectangle ++(6pt,-6pt);
+      \draw
+        ($(legendBase)+(0,-\i*\lineSep)$) rectangle ++(6pt,-6pt);
+      % label text
+      \node[anchor=west]
+        at 
+        ($ (legendBase)+(0,-\i*\lineSep) + (8pt,-3pt) $)
+        {\name\ [\percent\%]};
+    }
+  \end{tikzpicture}
+  \caption{Pie chart with legend to the right (always outside).}
+\end{figure}
+
+\def\pieData{69.6/None, 23.9/Astigmatism, 2.17/Cataract, 2.17/Color blindness, 2.17/Pinguecula}
+
+% 2) Colors (pgf list) and count
+\def\pieColors{{"Gold2","violet","Orange","red","cyan"}}
+\def\colorCount{7}
+
+% 3) Pie geometry
+\def\startAngle{90}       % where slice #1 begins (90° = top)
+\def\pieRadius{3cm}       % radius of the pie
+
+% 4) Legend styling & placement
+\def\legendDist{1cm}      % horizontal gap between pie and legend
+\def\lineSep{0.8cm}       % vertical separation between legend items
+\def\labelFont{\small}    % legend font size
+% ───────────────────────────────────
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}[nodes={font=\labelFont}]
+    % ─── Draw the pie ───
+    \newcount\sliceIdx \sliceIdx=-1
+    \def\angle{\startAngle}
+    \foreach \percent/\name in \pieData {%
+      \global\advance\sliceIdx by 1
+      \ifnum\sliceIdx>\numexpr\colorCount-1\relax
+        \global\sliceIdx=0
+      \fi
+      \pgfmathparse{\pieColors[\the\sliceIdx]}\edef\sliceColor{\pgfmathresult}
+      \draw[fill=\sliceColor!50,draw=\sliceColor]
+        (0,0) -- (\angle:\pieRadius)
+        arc(\angle:\angle-\percent*3.6:\pieRadius) -- cycle;
+      \pgfmathparse{\angle-\percent*3.6}\xdef\angle{\pgfmathresult}
+    }
+
+    % ─── Compute legend anchor ───
+    % This puts the top legend entry at (pieRadius + legendDist, +pieRadius)
+    \coordinate (legendBase) at 
+      ({\pieRadius+\legendDist}, {\pieRadius});
+
+    % ─── Draw the legend ───
+    \foreach [count=\i from 0] \percent/\name in \pieData {%
+      \pgfmathparse{\pieColors[\i]}\edef\legendColor{\pgfmathresult}
+      % colored box
+      \fill[\legendColor!50]
+        ($(legendBase)+(0,-\i*\lineSep)$) rectangle ++(6pt,-6pt);
+      \draw
+        ($(legendBase)+(0,-\i*\lineSep)$) rectangle ++(6pt,-6pt);
+      % label text
+      \node[anchor=west]
+        at 
+        ($ (legendBase)+(0,-\i*\lineSep) + (8pt,-3pt) $)
+        {\name\ [\percent\%]};
+    }
+  \end{tikzpicture}
+  \caption{Pie chart with legend to the right (always outside).}
+\end{figure}
+\\
 \begin{table}[ht]
     \caption{Left eye}
     \begin{adjustbox}{width = \textwidth, center}
