@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 08:42
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.2.19)  25 APR 2025 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2453,13 +2453,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--430
  []
 
 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.432 \begin
+            {table}[H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.470 \subsection
+                 *{Goodness of Fit test}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 473--490
 
  []
 
 
-
-[8]
 Underfull \hbox (badness 10000) in paragraph at lines 490--507
 
  []
@@ -2634,6 +2660,146 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{center}\\
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.82 ...599}$\sum(X-\overline{X})(Y-\overline{Y})}
+                                                  $                 & -3074....
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.82 ...ne{X})(Y-\overline{Y})}$                 &
+                                                   -3074.4167 \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83 ...sum(X-\overline{X})(Y-\overline{Y})}{n-1}}
+                                                  $ & -69.8731   \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83 ...(X-\overline{X})(Y-\overline{Y})}{n-1}}$ &
+                                                   -69.8731   \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86 ...dehat{\mathrm{cov}}_{X, Y}}{s_X\cdot s_Y}}
+                                                  $        & -0.1242    \\ \...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86 ...hrm{cov}}_{X, Y}}{s_X\cdot s_Y}}$        &
+                                                   -0.1242    \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 \end{table}\\
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.140 ...99}$\sum(X-\overline{X})(Y-\overline{Y})}
+                                                  $                 & -3016....
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.140 ...e{X})(Y-\overline{Y})}$                 &
+                                                   -3016.2099 \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.141 ...um(X-\overline{X})(Y-\overline{Y})}{n-1}}
+                                                  $ & -70.1444   \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.141 ...X-\overline{X})(Y-\overline{Y})}{n-1}}$ &
+                                                   -70.1444   \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.144 ...ehat{\mathrm{cov}}_{X, Y}}{s_X\cdot s_Y}}
+                                                  $        & -0.1148    \\ \...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.144 ...rm{cov}}_{X, Y}}{s_X\cdot s_Y}}$        &
+                                                   -0.1148    \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 )
 
 [14
@@ -2642,6 +2808,8 @@ or  <return>  to continue without it.
 ]
 
 [15]
+
+[16]
 One-sided document style.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 92.
@@ -2667,7 +2835,7 @@ LaTeX Font Warning: Font shape `U/matha/m/n' in size <4.58339> not available
 
 
 
-[16
+[17
 
 ] (6_report.aux)
  ***********
@@ -2681,12 +2849,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 43758 strings out of 408644
- 1080447 string characters out of 5744893
+ 43757 strings out of 408644
+ 1080404 string characters out of 5744893
  1856892 words of memory out of 5000000
- 66135 multiletter control sequences out of 15000+600000
+ 66134 multiletter control sequences out of 15000+600000
  622414 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,18n,117p,1075b,2323s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 6_report.pdf (16 pages).
+Output written on 6_report.pdf (17 pages).
